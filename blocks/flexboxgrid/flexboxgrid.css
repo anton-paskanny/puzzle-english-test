@@ -9,8 +9,6 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   max-width: 1200px;
-  padding-right: 1rem;
-  padding-left: 1rem;
 }
 
 .row {
@@ -1049,11 +1047,11 @@
   }
 }
 
-/*@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 992px) {
 
   .container-fluid {
       padding-right: 1rem;
       padding-left: 1rem;
   }
 
-}*/
+}
