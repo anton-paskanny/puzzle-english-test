@@ -146,3 +146,41 @@
     min-width: 10px;
     margin: 7px 0 9px 0;
 }
+
+.writing-list__phrase,
+.writing-list__comment-link,
+.writing-list__translates,
+.writing-list__success-text {
+  text-align: center;
+}
+
+.writing-list__phrase-num {
+  margin-bottom: 20px;
+}
+
+.writing-list__comment-link {
+  margin-top: 10px;
+}
+
+.writing-list__translates {
+  margin-top: 5px;
+}
+
+@media all and (min-width: 48em) {
+  .writing-list__phrase-num {
+    margin-bottom: 0;
+  }
+
+  .writing-list__comment-link,
+  .writing-list__translates  {
+    margin-top: 0;
+    text-align: right;
+  }
+
+  .writing-list__phrase,
+  .writing-list__success-text {
+    text-align: left;
+  }
+
+
+}
