@@ -1,0 +1,41 @@
+.puzzle-select {
+    width: 100%;
+    display: inline-block;
+    color: #515f6d;
+    background: url('puzzle-select-triangle.svg'), linear-gradient(to top, #f5fafd, #ffffff) no-repeat 95% 50%;
+    cursor: pointer;
+    border-radius: 1px;
+    border: solid 1px #c2ceda;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.puzzle-select_size_m {
+    padding: 0 45px 2px 15px;
+    font-size: 14px;
+    max-width: 150px;
+    height: 35px;
+}
+
+/*Extra small devices (phones)*/
+
+@media only screen and (max-width : 767px) {
+
+    .puzzle-select {
+        margin-bottom: 15px;
+    }
+
+}
+
+
+
+
+
+
+
+
+

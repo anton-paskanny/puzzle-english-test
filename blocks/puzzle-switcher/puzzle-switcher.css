@@ -1,0 +1,73 @@
+.puzzle-switcher {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.puzzle-switcher__item:not(.is-active) {
+    cursor: pointer;
+}
+
+.puzzle-switcher_style_tabs {
+    border: solid 2px #0a96d1;
+    border-radius: 6px;
+}
+
+.puzzle-switcher_style_tabs .puzzle-switcher__item {
+    color: #0a96d1;
+}
+
+.puzzle-switcher_style_tabs .puzzle-switcher__item.is-active {
+    color: #fff;
+    background-color: #0996d1;
+}
+
+.puzzle-switcher__item {
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.puzzle-switcher_style_tabs.puzzle-switcher_size_m .puzzle-switcher__item {
+    padding: 14px 50px;
+    font-size: 16px;
+}
+
+.puzzle-switcher_style_links.puzzle-switcher_size_l .puzzle-switcher__item {
+    font-size: 18px;
+    padding: 6px 15px 8px;
+}
+
+.puzzle-switcher_style_links .puzzle-switcher__item {
+    border-radius: 18px;
+}
+
+.puzzle-switcher_style_links .puzzle-switcher__item span {
+    color: #0a96d1;
+    border-bottom: 1px dashed;
+}
+
+.puzzle-switcher_style_links .puzzle-switcher__item.is-active {
+    color: #333;
+    background-color: #fcd245;
+}
+
+.puzzle-switcher_style_links .puzzle-switcher__item.is-active span {
+    color: #333;
+    border-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+

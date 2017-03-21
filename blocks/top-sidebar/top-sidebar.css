@@ -1,0 +1,49 @@
+.top-sidebar {
+    position: absolute;
+    left: 0;
+    top: 125px;
+    display: none;
+}
+
+@media screen and (min-width: 1000px) {
+    .top-sidebar {
+        display: block;
+    }
+}
+
+.top-sidebar__item {
+    background-color: #000;
+    position: relative;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-bottom: 1px;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    opacity: .5;
+}
+
+.top-sidebar__item:hover {
+    opacity: 1;
+}
+
+.top-sidebar__item_close {
+    width: 22px;
+    height: 28px;
+}
+
+.top-sidebar__item_button {
+    width: 22px;
+    padding: 10px 0 10px 1px;
+}
+
+.top-sidebar__item_close .puzzle-icon_close {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

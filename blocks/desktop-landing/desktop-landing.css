@@ -1,0 +1,324 @@
+body {
+  min-width: 0;
+}
+
+.mobile-landing_page_main.mobile-landing_desktop .mobile-landing__screen_first {
+  background-image: linear-gradient(220deg, #1e4a7e, #2db3ff);
+}
+
+.mobile-landing_page_main.mobile-landing_desktop .mobile-landing__screen_first .puzzle-text {
+  color: #fff;
+}
+
+.mobile-landing_desktop .mobile-landing__screen_feedback {
+  background-color: #f9f9f9;
+  padding-bottom: 30px;
+}
+
+.mobile-landing__screen_feedback .b-slide__img_wrapp {
+  margin: 0 auto;
+}
+
+.mobile-landing__screen_feedback .b-slide__subtext {
+  margin: 15px auto !important;
+  text-align: center;
+  font: normal 20px/1.4 SegoeUILight, sans-serif !important;
+}
+
+.mobile-landing__screen_feedback .b-slide__text {
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.mobile-landing__screen_feedback .b-slider {
+  margin: 0;
+}
+
+.mobile-landing__screen_feedback .slides-pagination {
+  width: 1110px;
+}
+
+.mobile-landing__screen_footer {
+  padding: 30px 0;
+}
+
+.mobile-landing__screen_footer .puzzle-logo_type_horizontal {
+  margin-bottom: 0;
+}
+
+.mobile-landing__reg-form {
+  color: #fff;
+}
+
+.mobile-landing__reg-form .pull-right {
+  float: none;
+}
+
+.mobile-landing__reg-form .b-reg__block__simple {
+  margin: 40px auto 20px !important;
+}
+
+.mobile-landing__reg-form .b-reg__block__simple__term-of-use {
+  color: #fff;
+}
+
+.mobile-landing__reg-form .b-reg__block__social .b-reg__form.sign_form {
+  margin-bottom: 20px;
+}
+
+.mobile-landing__reg-form .b-reg__block__simple .b-reg__block__change span {
+  color: #b5caec;
+  border-bottom: 1px dashed #b5caec;
+}
+
+.mobile-landing__reg-form .b-reg__block__simple {
+  min-height: 300px;
+}
+
+.mobile-landing__reg-form .b-reg__soc {
+    margin-bottom: 48px;
+}
+
+.mobile-landing_desktop .b-reg__title__social,
+.mobile-landing_desktop .b-reg__title {
+  font-family: SegoeUILight, sans-serif;
+  margin-bottom: 35px;
+}
+
+.mobile-landing_desktop .mobile-landing__reg-form .b-reg__soc {
+  margin-bottom: 35px;
+  margin-top: 30px;
+  display: -webkit-flex !important;
+  display: -moz-flex !important;
+  display: -ms-flex !important;
+  display: -o-flex !important;
+  display: flex !important;
+  justify-content: space-around;
+}
+
+.mobile-landing_desktop .b-reg__block__simple .b-reg__block__change {
+  margin-top: 25px;
+}
+
+.desktop-landing__header-wrapper .puzzle-button_blue {
+  -webkit-box-shadow: 0 2px 0 #007ad0;
+  box-shadow: 0 2px 0 #007ad0;
+}
+
+li.b-reg__soc__item.m-vk {
+  display: none;
+}
+
+.b-reg__soc__item, .b-soc__item {
+  margin-left: 0;
+}
+
+.b-reg__soc {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobile-landing__help-link {
+  font-size: 14px;
+  text-decoration: none;
+  color: #dfe6ec !important;
+}
+
+.mobile-landing__help-link span {
+  border-bottom: 1px solid rgba(223,230,236,.6);
+}
+
+.mobile-landing__help-link:hover span {
+  border-color: transparent;
+}
+
+/* only desktop */
+
+@media only screen and (min-width : 767px) {
+
+  .b-reg__soc__item, .b-soc__item {
+    margin-left: 0;
+  }
+
+  .desktop-landing__header-wrapper {
+    border-bottom: 2px solid rgba(255, 255, 255, .1);
+    height: 78px;
+  }
+
+  .desktop-landing__header {
+    padding-top: 16px;
+  }
+
+  .mobile-landing_page_main.mobile-landing_desktop .mobile-landing__screen_first {
+    padding: 0;
+    padding-bottom: 40px;
+  }
+
+  .mobile-landing_desktop .mobile-landing__screen_first .mobile-landing__title {
+    font-size: 50px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+  }
+
+  .mobile-landing_desktop .mobile-landing__screen_first .mobile-landing__paragraph {
+    font: normal 20px/1.2 SegoeUILight, sans-serif;
+  }
+
+  .mobile-landing_page_main.mobile-landing_desktop .mobile-landing__screen_first a.puzzle-button_dark-orange,
+  .mobile-landing_page_main.mobile-landing_desktop .desktop-landing__reg-button a.puzzle-button_blue {
+    border-radius: 90px;
+    padding: 16px 70px 18px;
+    font-size: 18px;
+  }
+
+  .mobile-landing_desktop .mobile-landing__screen_services .mobile-landing__title {
+    margin-bottom: 15px;
+  }
+
+  .mobile-landing_desktop .mobile-landing__screen_services .mobile-landing__paragraph {
+    margin-bottom: 40px;
+  }
+
+  .mobile-landing_desktop .mobile-services__item {
+    width: 33%;
+    padding: 0 15px;
+  }
+
+  .mobile-landing_desktop .mobile-services__item .mobile-services__icon {
+    margin-right: 15px;
+  }
+
+  .mobile-landing_desktop .mobile-services__item .mobile-services__title {
+    margin-bottom: 10px;
+    color: #5a5a5a;
+  }
+
+  .mobile-landing_desktop .mobile-services__item .mobile-services__text {
+    font: normal 14px/1.3 SegoeUILight, sans-serif;
+  }
+
+  .mobile-landing_desktop .mobile-services__item-info {
+    width: 70%;
+  }
+}
+
+/* мини телефоны */
+
+@media only screen and (max-width : 375px) {
+
+  .b-reg__block {
+    width: auto;
+  }
+
+}
+
+
+/* Телефоны в ориентации portrait */
+@media only screen and (max-width : 767px) and (orientation: portrait) {
+
+  .mobile-landing__screen_services .mobile-landing__title {
+    margin-bottom: 10px;
+  }
+
+  .puzzle-text_ff_segoe-light.puzzle_ta_center.mobile-landing__paragraph.puzzle-text.puzzle-text_fz_20 {
+    margin-bottom: 30px;
+  }
+
+  .mobile-services__item-info {
+      width: 100%;
+  }
+
+  .mobile-landing__screen_footer .puzzle-logo_type_horizontal {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .mobile-landing__screen_footer .puzzle_justify {
+    text-align: center;
+  }
+
+  .n-block__10 .b-slide__review {
+    margin: 0;
+  }
+
+  .mobile-landing__screen_feedback .slides-pagination {
+      width: 80%;
+      display: none;
+  }
+
+  .mobile-landing__screen_first {
+    height: auto;
+  }
+
+  .desktop-landing__header {
+    text-align: center;
+  }
+
+  .desktop-landing__header .puzzle-logo {
+    margin-right: -40px;
+  }
+
+  .mobile-landing__screen_first .puzzle-logo {
+      margin-bottom: 20px;
+  }
+
+  .mobile-landing__screen_first {
+    padding: 20px 5px;
+  }
+
+  .b-reg__soc__item {
+    margin-left: 6px;
+  }
+
+}
+
+
+/* Телефоны в ориентации landscape */
+@media only screen and (max-width : 767px) and (orientation: landscape) {
+
+}
+
+/* планшеты */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+  .mobile-landing_desktop .mobile-services__item-info {
+    width: 190px;
+  }
+  
+  .mobile-landing__screen_feedback .slides-pagination {
+    width: 670px;
+  }
+
+  .l-wrapper {
+    padding: 16px 20px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .mobile-landing_desktop .mobile-landing__screen_first .mobile-landing__title {
+    font-size: 40px;
+  }
+
+  .interactive__step-2 .interactive-hint__cloud {
+    left: -35px;
+    top: 85px;
+  }
+
+}
+
+
+
+
+
+
+
+
+

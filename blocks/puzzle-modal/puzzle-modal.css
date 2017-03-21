@@ -1,0 +1,43 @@
+.puzzle-modal .jBox-closeButton-box .jBox-closeButton {
+    right: 15px;
+    top: 12px;
+}
+
+.puzzle-modal.jBox-Modal .jBox-container,
+.puzzle-modal.jBox-Confirm .jBox-container {
+    padding: 0;
+}
+
+.puzzle-modal__content {
+    padding: 30px;
+}
+
+.puzzle-modal__header {
+    margin: -30px -30px 0;
+    padding: 30px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.puzzle-modal__header_style_gray {
+    background-color: #f6f6f6;
+}
+
+.puzzle-modal__success-message {
+    font-size: 24px;
+    font-family: MuseoCyrl-500, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*Extra small devices (phones)*/
+
+@media only screen and (max-width : 767px) {
+
+    .puzzle-modal.jBox-Modal,
+    .puzzle-modal.jBox-Modal .jBox-content {
+        max-width: 100% !important;
+        max-height: 100% !important;
+    }
+
+}

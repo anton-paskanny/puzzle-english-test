@@ -1,0 +1,93 @@
+.info-download_videopuzzle {
+    padding-bottom: 30px;
+    background: #ffc353 url('/wp-content/themes/english/assets/antago/img/puzzle-yellow.png') 0 0 repeat;
+}
+
+.info-download_grammar {
+    background: #0460a0 url('/wp-content/themes/english/assets/antago/img/puzzle-blue.png') 0 0 repeat;
+}
+
+.info-download_serials {
+    background: #0460a0 url('/wp-content/themes/english/assets/antago/img/puzzle-blue.png') 0 0 repeat;
+}
+
+.info-download__item {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.info-download__item a,
+.info-download__item button{
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    min-width: 300px;
+    border-bottom: 2px solid #d4b391;
+    background-color: #f8f3e7;
+    color: #333;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.info-download__checkbox {
+    margin-left: 5px;
+    width: 20px;
+    height: 14px;
+    cursor: pointer;
+}
+
+.info-download__item label {
+    cursor: pointer;
+}
+
+.info-download_videopuzzle .info-download__back a {
+    color: #333333;
+}
+
+.info-download__back {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-download__back a {
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.info-download__back a:hover {
+    text-decoration: underline;
+}
+
+.info-download__freeuser {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.info-download__freeuser a {
+    color: #4594d1;
+}
+
+.info-download__freeuser a:hover {
+    color: #4594d1;
+}
+
+.info-download__freeuser > .l-wrapper {
+    width: 60% !important;
+    margin: 0 auto;
+}
+
+.info-download__freeuser-title {
+    margin-bottom: 40px;
+    font-family: MuseoCyrl-500, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 32px;
+}

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'SegoeUILight';
+  src: url('/wp-content/plugins/mailpress/mp-content/themes/Puzzle/font/segoe/SegoeUILight.eot');
+  src: url('/wp-content/plugins/mailpress/mp-content/themes/Puzzle/font/segoe/SegoeUILight.eot?#iefix') format('embedded-opentype'),
+  url('/wp-content/plugins/mailpress/mp-content/themes/Puzzle/font/segoe/SegoeUILight.woff') format('woff'),
+  url('/wp-content/plugins/mailpress/mp-content/themes/Puzzle/font/segoe/SegoeUILight.ttf') format('truetype'),
+  url('/wp-content/plugins/mailpress/mp-content/themes/Puzzle/font/segoe/SegoeUILight.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

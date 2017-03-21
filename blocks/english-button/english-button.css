@@ -1,0 +1,177 @@
+.english-button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input.english-button {
+    border: none;
+}
+
+.english-button.loading {
+    background: #71b26f url("/wp-content/themes/english/assets/images/preloader-20x20-green.gif") no-repeat 95% 18px;
+    padding-left: 40px;
+}
+
+.english-button.loading.loading-left {
+    background-position: 10px;
+}
+
+.english-button_style_green {
+    color: #fff !important;
+    background-color: #79c177;
+    box-shadow: inset 0 -3px 0 0 #599f57;
+    -webkit-box-shadow: inset 0 -3px 0 0 #599f57;
+}
+
+.english-button_style_green:hover {
+    color: #fff !important;
+    background-color: #82cd80;
+    box-shadow: inset 0 -3px 0 0 #599f57;
+    -webkit-box-shadow: inset 0 -3px 0 0 #599f57;
+}
+
+.english-button_style_green:active {
+    color: #fff !important;
+    background-color: #79c177;
+    box-shadow: inset 0 -2px 0 0 #599f57;
+    -webkit-box-shadow: inset 0 -2px 0 0 #599f57;
+}
+
+.english-button_style_blue {
+    color: #f0f0f0 !important;
+    background-color: #0460a0;
+    box-shadow: inset 0 -3px 0 0 #04548d;
+    -webkit-box-shadow: inset 0 -3px 0 0 #04548d;
+}
+
+.english-button_style_blue:hover {
+    color: #f0f0f0 !important;
+    background-color: #036fba;
+    box-shadow: inset 0 -3px 0 0 #035c9b;
+    -webkit-box-shadow: inset 0 -3px 0 0 #035c9b;
+}
+
+.english-button_style_blue:active {
+    color: #f0f0f0 !important;
+    background-color: #036fba;
+    box-shadow: inset 0 3px 0 0 #035c9b;
+    -webkit-box-shadow: inset 0 3px 0 0 #035c9b;
+}
+
+.english-button_style_red {
+    color: #fff !important;
+    background-color: #da4835;
+    box-shadow: inset 0 -3px 0 0 #be1e1e;
+    -webkit-box-shadow: inset 0 -3px 0 0 #be1e1e;
+}
+
+.english-button_style_red:hover {
+    color: #fff !important;
+    background-color: #dc5846;
+    box-shadow: inset 0 -3px 0 0 #b53636;
+    -webkit-box-shadow: inset 0 -3px 0 0 #b53636;
+}
+
+.english-button_style_red:active {
+    color: #fff !important;
+    background-color: #dc5846;
+    box-shadow: inset 0 3px 0 0 #b53636;
+    -webkit-box-shadow: inset 0 3px 0 0 #b53636;
+}
+
+.english-button_style_orange {
+    color: #000 !important;
+    background-color: #fdb42c;
+    box-shadow: inset 0 -3px 0 0 #d5771f;
+    -webkit-box-shadow: inset 0 -3px 0 0 #d5771f;
+}
+
+.english-button_style_orange:hover {
+    color: #000 !important;
+    background-color: #ffbe44;
+    box-shadow: inset 0 -3px 0 0 #e59244;
+    -webkit-box-shadow: inset 0 -3px 0 0 #e59244;
+}
+
+.english-button_style_orange:active {
+    color: #000 !important;
+    background-color: #ffbe44;
+    box-shadow: inset 0 3px 0 0 #e59244;
+    -webkit-box-shadow: inset 0 3px 0 0 #e59244;
+}
+
+.english-button_style_white {
+    color: #333 !important;
+    background-color: #fff;
+    box-shadow: inset 0 -3px 0 0 #ccc;
+    -webkit-box-shadow: inset 0 -3px 0 0 #ccc;
+}
+
+.english-button_style_white:hover {
+    color: #333 !important;
+    background-color: #fff;
+    box-shadow: inset 0 -3px 0 0 #ccc;
+    -webkit-box-shadow: inset 0 -3px 0 0 #ccc;
+}
+
+.english-button_style_white:active {
+    color: #333 !important;
+    background-color: #fff;
+    box-shadow: inset 0 3px 0 0 #ccc;
+    -webkit-box-shadow: inset 0 3px 0 0 #ccc;
+}
+
+.english-button_disabled {
+    color: #848484 !important;
+    background-color: #c7c7c7;
+    box-shadow: inset 0 -3px 0 0 #ccc;
+    -webkit-box-shadow: inset 0 -3px 0 0 #ccc;
+}
+
+.english-button_size_s {
+    min-width: 100px;
+    padding: 10px 14px 12px !important;
+    font-size: 14px;
+}
+
+.english-button_size_m {
+    min-width: 150px;
+    padding: 10px 24px 12px;
+    font-size: 16px;
+}
+
+.english-button_size_l {
+    min-width: 160px;
+    padding: 17px 30px 19px;
+    font-size: 18px;
+}
+
+.english-button_size_xl {
+    min-width: 220px;
+    padding: 19px 60px 21px;
+    font-size: 18px;
+}
+
+/*Extra small devices (phones)*/
+
+@media only screen and (max-width : 767px) {
+
+    .english-button_size_xl {
+        font-size: 16px;
+    }
+
+}

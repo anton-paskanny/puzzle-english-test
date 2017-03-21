@@ -1,0 +1,215 @@
+
+.teacher-mobile-landing_os_ios .mobile-landing__screen_first,
+.teacher-mobile-landing_os_android .mobile-landing__screen_first {
+  height: 500px;
+}
+
+.teacher-mobile-landing_os_ios .mobile-landing__screen_background_center,
+.teacher-mobile-landing_os_android .mobile-landing__screen_background_center {
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+}
+
+
+.teacher-mobile-landing_os_ios .mobile-landing__title,
+.teacher-mobile-landing_os_android .mobile-landing__title {
+  font-family: MuseoCyrl-500, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.teacher-mobile-landing_os_ios .puzzle-button_red,
+.teacher-mobile-landing_os_android .puzzle-button_red {
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.teacher-mobile-landing_os_ios .puzzle-button_light-gray,
+.teacher-mobile-landing_os_android .puzzle-button_light-gray {
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.teacher-mobile-landing_os_ios .puzzle-button_light-gray svg path,
+.teacher-mobile-landing_os_android .puzzle-button_light-gray svg path {
+  fill: #000;
+}
+
+.mobile-landing-carousel__item {
+  width: 320px;
+  margin: 0 20px;
+}
+
+.mobile-landing-carousel__img {
+  max-width: 300px;
+}
+
+.mobile-landing__screen_last {
+  padding: 20px 15px;
+  height: 600px;
+}
+
+.mobile-landing_page_main-2 .mobile-landing__screen_last .puzzle-text {
+  color: #fff;
+}
+
+.mobile-landing__screen_last .mobile-landing__paragraph {
+  font-size: 20px;
+}
+
+
+.teacher-mobile-landing_os_android .mobile-landing__screen_first {
+  background-image: url('/wp-content/themes/english/assets/images/teacher-mobile-landing/teacher-mobile-landing_os_android.png');
+}
+
+.teacher-mobile-landing_os_ios .mobile-landing__screen_first {
+  background-image: url('/wp-content/themes/english/assets/images/teacher-mobile-landing/teacher-mobile-landing_os_ios.png');
+}
+
+.teacher-mobile-landing_os_ios .mobile-landing__screen_last,
+.teacher-mobile-landing_os_android .mobile-landing__screen_last {
+  background-image: url('/wp-content/themes/english/assets/images/teacher-mobile-landing/teacher-mobile-landing_bg-blue.png');
+}
+
+
+
+/* Все телефоны */
+
+@media only screen and (max-width : 767px) {
+
+  .teacher-mobile-landing_os_android .mobile-landing__screen_first {
+    background-image: url('/wp-content/themes/english/assets/images/teacher-mobile-landing/teacher-mobile-landing_os_android.png');
+  }
+
+  .teacher-mobile-landing_os_ios .mobile-landing__screen_first {
+    background-image: url('/wp-content/themes/english/assets/images/teacher-mobile-landing/teacher-mobile-landing_os_ios.png');
+  }
+
+  .teacher-mobile-landing_os_ios .mobile-landing__screen_last,
+  .teacher-mobile-landing_os_android .mobile-landing__screen_last {
+    background-image: url('/wp-content/themes/english/assets/images/teacher-mobile-landing/teacher-mobile-landing_bg-blue.png');
+  }
+
+
+}
+
+
+/* Телефоны в ориентации portrait */
+@media only screen and (max-width : 767px) and (orientation: portrait) {
+  .mobile-landing__screen_first .mobile-landing__title {
+    margin-bottom: 10px;
+  }
+
+  .mobile-landing__screen_first .mobile-landing__paragraph {
+    margin-bottom: 20px;
+  }
+}
+
+
+/* Телефоны в ориентации landscape */
+@media only screen and (max-width : 767px) and (orientation: landscape) {
+
+}
+
+/* Начиная от планшетов и выше */
+
+@media only screen and (min-width: 768px) {
+
+
+}
+
+
+
+/* Portrait and Landscape */
+@media
+(min-device-width: 800px)
+and (max-device-width: 1280px) {
+
+}
+
+/* Tablet Portrait and Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1280px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+  .teacher-mobile-landing_os_ios .mobile-landing__screen_first,
+  .teacher-mobile-landing_os_android .mobile-landing__screen_first {
+    background-image: url('/wp-content/themes/english/assets/images/teacher-mobile-landing/teacher-mobile-landing_os_ios_x3.jpg');
+  }
+
+  .teacher-mobile-landing_os_ios .mobile-landing__screen_first,
+  .teacher-mobile-landing_os_android .mobile-landing__screen_first {
+    height: 342px;
+  }
+
+  .teacher-mobile-landing_os_ios .mobile-landing__screen_first .mobile-landing__header,
+  .teacher-mobile-landing_os_android .mobile-landing__screen_first .mobile-landing__header {
+    width: 320px;
+    padding: 63px 0 0 55%;
+    text-align: left;
+  }
+
+  .teacher-mobile-landing_os_ios .mobile-services__item,
+  .teacher-mobile-landing_os_android .mobile-services__item {
+    width: 33.33%!important;
+    margin-bottom: 0;
+  }
+
+  .teacher-mobile-landing_os_ios .mobile-services__icon,
+  .teacher-mobile-landing_os_android .mobile-services__icon {
+    float: left;
+    margin-right: 0;
+  }
+
+  .teacher-mobile-landing_os_ios .mobile-services__item-info,
+  .teacher-mobile-landing_os_android .mobile-services__item-info {
+    width: auto;
+    padding-left: 55px;
+    padding-right: 5px;
+  }
+
+  .teacher-mobile-landing_os_ios .mobile-landing-carousel,
+  .teacher-mobile-landing_os_android .mobile-landing-carousel {
+    width: 91%;
+    margin: 0 auto;
+  }
+
+  .teacher-mobile-landing_os_ios .mobile-landing-carousel__item,
+  .teacher-mobile-landing_os_android .mobile-landing-carousel__item {
+    margin: 0 15px;
+  }
+
+  .teacher-mobile-landing_os_ios .mobile-landing__screen_last,
+  .teacher-mobile-landing_os_android .mobile-landing__screen_last {
+    height: 624px;
+  }
+
+  .teacher-mobile-landing_os_ios .mobile-landing__row_hide,
+  .teacher-mobile-landing_os_android .mobile-landing__row_hide {
+    display: none;
+  }
+
+  .teacher-mobile-landing_os_ios .mobile-landing__screen_last_wrap,
+  .teacher-mobile-landing_os_android .mobile-landing__screen_last_wrap {
+    width: 603px;
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+
+}
+
+/* Tablet Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1280px)
+/*and (max-device-width: 1024px)*/
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+  .teacher-mobile-landing_os_ios .mobile-landing-carousel__item,
+  .teacher-mobile-landing_os_android .mobile-landing-carousel__item {
+    margin: 0 75px;
+  }
+
+}

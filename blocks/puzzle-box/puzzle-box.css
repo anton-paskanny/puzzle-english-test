@@ -1,0 +1,50 @@
+.puzzle-box {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.puzzle-box_style_gray {
+    background-color: #f9f9f9;
+}
+
+.puzzle-box_style_white {
+    background-color: #fff;
+}
+
+.puzzle-box_size_m {
+    padding: 20px;
+}
+
+.puzzle-box_style_blue-gradient {
+    background: #0a5393;
+    background-image: linear-gradient(to bottom, #085d97 1%, #0a68a8 2%, #0a68a8 10%, #0e91ca), linear-gradient(#0a68a8, #0a68a8);
+}
+
+.puzzle-box_style_light-green {
+    color: #333;
+    background: #ecf9eb url('/wp-content/themes/english/assets/pe/img/light-green_puzzle_pattern.png') 0 0 repeat;
+}
+
+.puzzle-box_style_light-blue {
+    background-color: #f2f7fb;
+    color: #333;
+}
+
+.puzzle-box_type_top-comments {
+    padding: 60px 0 70px;
+}
+
+.puzzle-box_type_comments {
+    padding: 60px 0 70px;
+}
+
+.puzzle-box_type_writing {
+    padding: 30px;
+    border-radius: 6px;
+}
+
+.writing__repeat-words-item {
+    font-size: 16px;
+}

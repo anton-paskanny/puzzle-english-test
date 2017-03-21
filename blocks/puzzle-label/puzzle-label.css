@@ -1,0 +1,49 @@
+.puzzle-label {
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.puzzle-label_style_blue {
+    background-color: #03a9ef;
+    color: #fff;
+}
+
+.puzzle-label_style_red {
+    background-color: #fd3507;
+    color: #fff;
+}
+
+.puzzle-label_style_plan {
+    background-color: #f1eec9;
+    color: #333;
+}
+
+.puzzle-label_size_s {
+    padding: 1px 3px;
+    font-size: 10px;
+}
+
+.puzzle-label_size_l {
+    padding: 1px 5px;
+    font-size: 16px;
+}
+
+.puzzle-label_pos_top-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transform: translate(70%, -35%);
+        -ms-transform: translate(70%, -35%);
+         -o-transform: translate(70%, -35%);
+            transform: translate(70%, -35%);
+}
+
+.puzzle-label_pos_top-center {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}

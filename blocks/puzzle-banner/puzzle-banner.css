@@ -1,0 +1,197 @@
+ .puzzle-banner {
+    display: block;
+    text-decoration: none;
+    color: #333 !important;
+    position: relative;
+ }
+
+  .puzzle-banner .puzzle-icon_close {
+    position: absolute;
+    right: -15px;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+  }
+
+ .puzzle-banner_bg_new-year {
+    background: #fff url('/wp-content/themes/english/assets/images/newyear-price/newyear-price_bg.png') repeat-x center center;
+ }
+
+ .puzzle-banner_bg_christmas {
+    background: #70d7ff url('/wp-content/themes/english/assets/images/puzzle-banner_bg_christmas.jpg') no-repeat center top;
+ }
+
+ .puzzle-banner_bgc_gray-f6f6f6 {
+    background: #f6f6f6;
+ }
+
+ .puzzle-banner_president-message {
+    padding: 15px 0;
+ }
+
+ .puzzle-banner__president-message {
+    width: 600px;
+    height: 338px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+ }
+
+ .puzzle-banner__president-message img,
+ .puzzle-banner__president-message iframe,
+ .puzzle-banner__president-message video {
+    max-width: 100%;
+    max-height: 100%;
+ }
+
+ .puzzle-banner_christmas {
+    height: 130px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 20px;
+ }
+
+ .puzzle-banner_president,
+ .puzzle-banner_newyear-ribbon {
+    padding: 13px 0;
+ }
+
+  .puzzle-banner_bg_new-year.puzzle-banner_newyear-ribbon {
+    background-position: center -430px;
+  }
+
+ .puzzle-banner_president .puzzle-banner__text {
+    margin-left: 55px;
+ }
+
+ .puzzle-banner_bdb_yellow-ffd667 {
+    border-bottom: 5px solid #ffd667;
+ }
+
+ .puzzle-banner__left,
+ .puzzle-banner__right {
+    display: inline-block;
+    vertical-align: middle;
+ }
+
+ .puzzle-banner_ta_center {
+    text-align: center;
+ }
+
+ .puzzle-banner__video {
+    width: 183px;
+    height: 102px;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+ }
+
+ .puzzle-banner__video video {
+    max-width: 100%;
+    max-height: 100%;
+ }
+
+ .puzzle-banner__video img {
+    max-width: 100%;
+    max-height: 100%;
+ }
+
+ .puzzle-banner__text_ff_museo {
+    font-family: MuseoCyrl-500, Arial, "Helvetica Neue", Helvetica, sans-serif;
+ }
+
+ .puzzle-banner__text_fz_24 {
+    font-size: 24px;
+ }
+
+ .puzzle-banner__text_fz_36 {
+    font-size: 36px;
+ }
+
+ .puzzle-banner__text_lh_32 {
+    line-height: 32px;
+ }
+
+ .puzzle-banner__newyear-ribbon {
+    background: url('/wp-content/themes/english/assets/images/newyear-ribbon.png') 0 0 no-repeat;
+    width: 473px;
+    height: 84px;
+    display: inline-block;
+ }
+
+ .puzzle-banner__newyear-box {
+    width: 162px;
+    height: 130px;
+    background: url('/wp-content/themes/english/assets/images/newyear_box.png') 0 0 no-repeat;
+ }
+
+.puzzle-banner__text_fz_56 {
+    font-size: 56px;
+}
+
+.puzzle-banner__text_fz_42 {
+    font-size: 42px;
+}
+
+.puzzle-banner__text_tsh_blue-3098ab {
+    text-shadow: 2px 2px 0 #3098ab;
+}
+
+.puzzle-banner__text_c_white-fff {
+    color: #fff;
+}
+
+.puzzle-banner_newyear-box .puzzle-banner__right {
+    margin-left: 55px;
+}
+
+/* Small devices (tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .puzzle-banner {
+        background-size: 100% !important;
+        height: 110px !important;
+    }
+
+    .puzzle-banner .puzzle-icon_close {
+        right: 10px;
+    }
+
+}
+
+
+@media only screen and (max-width : 767px) {
+
+    .puzzle-banner {
+        width: 100%;
+    }
+
+    .puzzle-banner_bg_students {
+        background-position: 74%;
+    }
+
+}
+
+
+/* mini mobile */
+@media only screen and (max-width : 375px) {
+
+    .puzzle-banner {
+        background-size: 100% !important;
+        height: 45px !important;
+    }
+
+    .puzzle-banner .puzzle-icon_close {
+        right: 0;
+    }
+
+}
+
+
+
+
+

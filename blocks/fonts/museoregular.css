@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'MuseoCyrl-500';
+    src: url('/wp-content/plugins/mailpress/mp-content/themes/Puzzle/font/museocyrl-500-webfont.eot');
+    src: url('/wp-content/plugins/mailpress/mp-content/themes/Puzzle/font/museocyrl-500-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/wp-content/plugins/mailpress/mp-content/themes/Puzzle/font/museocyrl-500-webfont.woff2') format('woff2'),
+    url('/wp-content/plugins/mailpress/mp-content/themes/Puzzle/font/museocyrl-500-webfont.woff') format('woff'),
+    url('/wp-content/plugins/mailpress/mp-content/themes/Puzzle/font/museocyrl-500-webfont.ttf') format('truetype'),
+    url('/wp-content/plugins/mailpress/mp-content/themes/Puzzle/font/museocyrl-500-webfont.svg#MuseoCyrl-500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

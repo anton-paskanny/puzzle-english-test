@@ -1,0 +1,422 @@
+/*puzzle_bgc*/
+
+.puzzle_bgc_fff-white {
+    background-color: #fff;
+}
+
+.puzzle_bgc_e1ebe9-gray {
+    background-color: #e1ebe9;
+}
+
+.puzzle_bgc_f7f7f7-light-gray {
+    background-color: #f7f7f7;
+}
+
+
+
+/* puzzle_va_middle */
+
+.puzzle_va_middle {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.puzzle_va_bottom {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.puzzle_va_top {
+    display: inline-block;
+    vertical-align: top !important;
+}
+
+/*puzzle_justify */
+
+.puzzle_justify {
+    text-align: justify;
+}
+
+.puzzle_justify::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.puzzle_justify > * {
+    display: inline-block;
+}
+
+.puzzle_flex_justify {
+    display: -webkit-flex !important;
+    display: -moz-flex !important;
+    display: -ms-flex !important;
+    display: -o-flex !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.puzzle_flex_center {
+    display: -webkit-flex !important;
+    display: -moz-flex !important;
+    display: -ms-flex !important;
+    display: -o-flex !important;
+    display: flex !important;
+    -ms-align-items: center !important;
+    align-items: center !important;
+}
+
+/*puzzle-circle*/
+
+.puzzle-circle {
+    border-radius: 50%;
+}
+
+/*puzzle_ta*/
+
+.puzzle_ta_center {
+    text-align: center !important;
+}
+
+.puzzle_ta_right {
+   text-align: right;
+}
+
+.puzzle_ta_left {
+   text-align: left;
+}
+
+/* puzzle_bxz */
+
+.puzzle_bxz {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* puzzle_mb */
+
+.puzzle_mb_0 {
+    margin-bottom: 0px !important;
+}
+
+.puzzle_mb_5 {
+    margin-bottom: 5px !important;
+}
+
+.puzzle_mb_10 {
+    margin-bottom: 10px !important;
+}
+
+.puzzle_mb_15 {
+    margin-bottom: 15px !important;
+}
+
+.puzzle_mb_20 {
+    margin-bottom: 20px !important;
+}
+
+.puzzle_mb_25 {
+    margin-bottom: 25px !important;
+}
+
+.puzzle_mb_30 {
+    margin-bottom: 30px !important;
+}
+
+.puzzle_mb_35 {
+    margin-bottom: 35px;
+}
+
+.puzzle_mb_40 {
+    margin-bottom: 40px;
+}
+
+.puzzle_mb_50 {
+    margin-bottom: 50px !important;
+}
+
+.puzzle_mb_60 {
+    margin-bottom: 60px !important;
+}
+
+.puzzle_mb_80 {
+    margin-bottom: 80px !important;
+}
+
+.puzzle_mb_100 {
+    margin-bottom: 100px !important;
+}
+
+/* Small devices (tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .puzzle_mb_sm_0 {
+        margin-bottom: 0px !important;
+    }
+
+    .puzzle_mb_sm_20 {
+        margin-bottom: 20px !important;
+    }
+
+}
+
+/*Extra small devices (phones)*/
+
+@media only screen and (max-width : 767px) {
+
+    .puzzle_mb_xs_0 {
+        margin-bottom: 0px !important;
+    }
+
+    .puzzle_mb_xs_20 {
+        margin-bottom: 20px;
+    }
+
+}
+
+/* puzzle_mt */
+
+.puzzle_mt_5 {
+    margin-top: 5px !important;
+}
+
+.puzzle_mt_10 {
+    margin-top: 10px !important;
+}
+
+.puzzle_mt_15 {
+    margin-top: 15px;
+}
+
+.puzzle_mt_20 {
+    margin-top: 20px !important;
+}
+
+.puzzle_mt_25 {
+    margin-top: 25px;
+}
+
+.puzzle_mt_30 {
+    margin-top: 30px;
+}
+
+.puzzle_mt_35 {
+    margin-top: 30px;
+}
+
+.puzzle_mt_40 {
+    margin-top: 40px;
+}
+
+.puzzle_mt_50 {
+    margin-top: 50px;
+}
+
+.puzzle_mt_60 {
+    margin-top: 60px;
+}
+
+/*Extra small devices (phones)*/
+
+@media only screen and (max-width : 767px) {
+
+    .puzzle_mb_50 {
+        margin-bottom: 40px;
+    }
+
+    .puzzle_mb_60 {
+        margin-bottom: 50px;
+    }
+
+}
+
+/* puzzle_mr */
+
+.puzzle_mr_5 {
+    margin-right: 5px;
+}
+
+.puzzle_mr_10 {
+    margin-right: 10px;
+}
+
+.puzzle_mr_15 {
+    margin-right: 15px;
+}
+
+.puzzle_mr_20 {
+    margin-right: 20px;
+}
+
+.puzzle_mr_25 {
+    margin-right: 25px;
+}
+
+.puzzle_mr_30 {
+    margin-right: 30px;
+}
+
+.puzzle_mr_40 {
+    margin-right: 40px;
+}
+
+.puzzle_mr_50 {
+    margin-right: 50px;
+}
+
+/* puzzle_ml */
+
+.puzzle_ml_5 {
+    margin-left: 5px;
+}
+
+.puzzle_ml_10 {
+    margin-left: 10px;
+}
+
+.puzzle_ml_15 {
+    margin-left: 15px;
+}
+
+.puzzle_ml_20 {
+    margin-left: 20px;
+}
+
+.puzzle_ml_25 {
+    margin-left: 25px;
+}
+
+.puzzle_ml_30 {
+    margin-left: 30px;
+}
+
+.puzzle_ml_40 {
+    margin-left: 40px;
+}
+
+.puzzle_ml_50 {
+    margin-left: 50px;
+}
+
+/* puzzle_ov */
+
+.puzzle_ov_h {
+    overflow: hidden !important;
+}
+
+.puzzle_ov_v {
+    overflow: visible !important;
+}
+
+/* puzzle_img_responsive */
+
+.puzzle_img_responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Extra small devices (phones)*/
+
+@media only screen and (max-width : 767px) {
+
+    /* puzzle_mb */
+
+    .puzzle_mb_xs_5 {
+        margin-bottom: 5px !important;
+    }
+
+    .puzzle_mb_xs_10 {
+        margin-bottom: 10px !important;
+    }
+
+    .puzzle_mb_xs_15 {
+        margin-bottom: 15px;
+    }
+
+    .puzzle_mb_xs_20 {
+        margin-bottom: 20px !important;
+    }
+
+    .puzzle_mb_xs_25 {
+        margin-bottom: 25px !important;
+    }
+
+    .puzzle_mb_xs_30 {
+        margin-bottom: 30px;
+    }
+
+    .puzzle_mb_xs_35 {
+        margin-bottom: 35px;
+    }
+
+    .puzzle_mb_xs_40 {
+        margin-bottom: 40px;
+    }
+
+    .puzzle_mb_xs_50 {
+        margin-bottom: 50px !important;
+    }
+
+    .puzzle_mb_xs_60 {
+        margin-bottom: 60px !important;
+    }
+
+    /* puzzle_mr */
+
+    .puzzle_mr_xs_0 {
+        margin-right: 0 !important;
+    }
+
+    .puzzle_mr_xs_5 {
+        margin-right: 5px !important;
+    }
+
+    .puzzle_mr_xs_10 {
+        margin-right: 10px !important;
+    }
+
+    .puzzle_mr_xs_15 {
+        margin-right: 15px;
+    }
+
+    .puzzle_mr_xs_20 {
+        margin-right: 20px !important;
+    }
+
+    .puzzle_mr_xs_25 {
+        margin-right: 25px !important;
+    }
+
+    .puzzle_mr_xs_30 {
+        margin-right: 30px;
+    }
+
+    .puzzle_mr_xs_35 {
+        margin-right: 35px;
+    }
+
+    .puzzle_mr_xs_40 {
+        margin-right: 40px;
+    }
+
+    .puzzle_mr_xs_50 {
+        margin-right: 50px !important;
+    }
+
+    .puzzle_mr_xs_60 {
+        margin-right: 60px !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

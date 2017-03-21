@@ -1,0 +1,163 @@
+.undercap {
+    -webkit-box-shadow: inset 0 4px 6px 0px rgba(109, 109, 109, 0.48);
+    box-shadow: inset 0 4px 6px 0px rgba(109, 109, 109, 0.48);
+}
+
+.undercap_vitamin {
+    padding: 40px 0 35px;
+    margin-bottom: 35px;
+}
+
+.undercap_vitamin-target {
+    padding: 15px 0 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .undercap_vitamin {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.undercap_justify {
+    text-align: justify;
+}
+
+.undercap_justify::after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+}
+
+.undercap_pt_40 {
+    padding-top: 40px;
+}
+
+.undercap_color_white {
+    color: #fff;
+}
+
+.undercap_bg_fruitst {
+    background-image: url('/wp-content/themes/english/assets/pe/img/fruits_bg.png');
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+
+.undercap_bg-color_green-00a275 {
+    background-color: #00a275;
+}
+
+.undercap_bg_plushki {
+    background-image: url('/wp-content/themes/english/assets/pe/img/plushki_bg.png');
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+
+.undercap_bg-color_blue {
+    background-color: #14a3b5;
+}
+
+.undercap__left,
+.undercap__right {
+    text-align: left;
+}
+
+.undercap_va_top {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.undercap_va_middle {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.undercap_ff_museo {
+    font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.undercap_fz_30 {
+    font-size: 30px;
+}
+
+.undercap_fz_14 {
+    font-size: 14px;
+}
+
+.undercap_mb_15 {
+    margin-bottom: 15px;
+}
+
+.undercap_lh_1 {
+    line-height: 1;
+}
+
+.undercap_fz_16 {
+    font-size: 16px;
+}
+
+.undercap_lh_26 {
+    line-height: 26px;
+}
+
+.undercap_mb_25 {
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    .undercap_vitamin-right-width {
+        width: 100%;
+    }
+}
+
+.undercap_vitamin-target-left-width {
+    width: 660px;
+}
+
+.undercap_vitamin-target-right-width {
+    width: 245px;
+}
+
+.undercap__author .undercap__text {
+    max-width: 400px;
+}
+
+.undercap__link {
+    color: #fff;
+}
+
+.undercap__link:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.undercap__link-dashed {
+    border-bottom: 1px dashed #fff;
+    text-decoration: none !important;
+}
+
+.undercap__vitamin-category-icon {
+    width: 48px;
+    height: 48px;
+    margin-left: -10px;
+    margin-bottom: 5px;
+}
+
+/*Extra small devices (phones)*/
+
+@media only screen and (max-width : 767px) {
+
+    .undercap_vitamin-target-left-width,
+    .undercap_vitamin-target-right-width {
+        width: 100%;
+        padding: 0 15px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .undercap__author .undercap__text {
+        max-width: 70%;
+    }
+
+}

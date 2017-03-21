@@ -1,0 +1,47 @@
+.info-block {
+  padding: 15px 190px 17px;
+  background-color: rgba(63, 188, 240, .3);
+  border-radius: 3px;
+  position: relative;
+}
+
+.info-block__left-icon {
+  position: absolute;
+  left: 80px;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.info-block__text {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.info-block__prices-wrap {
+    background-image: linear-gradient(to left, #1e4a7e, #2a9de4), linear-gradient(#1e4a7e, #1e4a7e);
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* Extra small devices */
+
+@media only screen and (max-width : 767px) {
+
+  .mobile-landing__info-block-left-icon {
+    position: static;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    margin-top: -50px;
+  }
+
+  .mobile-landing__info-block {
+    padding: 15px;
+  }
+
+}

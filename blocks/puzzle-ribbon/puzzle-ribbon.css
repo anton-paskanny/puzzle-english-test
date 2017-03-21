@@ -1,0 +1,77 @@
+.puzzle-ribbon {
+    display: inline-block;
+    line-height: 1;
+}
+
+.puzzle-ribbon_pos_left-bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.puzzle-ribbon_pos_left-bottom::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: -5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    z-index: 1;
+}
+
+.puzzle-ribbon_pos_right-center {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    z-index: 1;
+}
+
+.puzzle-ribbon_pos_right-center::before {
+    content: '';
+    position: absolute;
+    right: 0px;
+    bottom: -5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    z-index: 1;
+}
+
+.puzzle-ribbon_style_red {
+    background-color: #f05858;
+    color: #fff;
+}
+
+.puzzle-ribbon_style_red.puzzle-ribbon::before {
+    border-color: transparent transparent #d83f3f transparent;
+}
+
+.puzzle-ribbon_size_s {
+    padding: 4px 6px 6px;
+}
+
+.puzzle-ribbon_size_m {
+    padding: 5px 31px 8px 11px;
+}
+
+.puzzle-ribbon_pos_left-bottom.puzzle-ribbon_style_red.puzzle-ribbon::before {
+    border-color: transparent transparent #d83f3f transparent;
+}
+
+.puzzle-ribbon_pos_right-center.puzzle-ribbon_style_red.puzzle-ribbon::before {
+    border-color: #d83f3f transparent transparent transparent;
+}
+
+.puzzle-ribbon_pos_left-bottom.puzzle-ribbon_size_s::before {
+    border-width: 0 0 5px 10px;
+}
+
+.puzzle-ribbon_pos_right-center.puzzle-ribbon_size_s::before {
+    border-width: 5px 10px 0 0;
+}

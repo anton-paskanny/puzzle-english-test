@@ -1,0 +1,33 @@
+.puzzle-title {
+    font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    color: #2d2d2d;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .puzzle-title {
+        font-size: 30px;
+    }
+}
+
+.puzzle-title_ta_left {
+    text-align: left;
+}
+
+.puzzle-title_mb_10 {
+    margin-bottom: 10px;
+}
+
+.puzzle-title_mb_20 {
+    margin-bottom: 20px;
+}
+
+.puzzle-title_c_red-e91921 {
+    color: #e91921;
+}
+
+.puzzle-title_fz_24 {
+    font-size: 24px;
+}

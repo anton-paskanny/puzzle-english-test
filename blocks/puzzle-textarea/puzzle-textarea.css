@@ -1,0 +1,19 @@
+.puzzle-textarea {
+    width: 100%;
+    background-color: #f6f6f6;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.puzzle-textarea_style_white {
+    border: 1px solid #d1d1d1;
+    background-color: #fff;
+}
+
+.puzzle-textarea_size_m {
+    font-size: 18px;
+    padding: 14px 18px 12px;
+    min-height: 80px;
+}

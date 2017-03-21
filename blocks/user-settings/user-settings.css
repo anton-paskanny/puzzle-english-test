@@ -1,0 +1,308 @@
+.user-settings {
+    padding-top: 20px;
+    min-height: calc(100vh - 94px);
+}
+
+.user-settings form,
+.user-settings ul {
+    margin: 0;
+}
+
+.user-settings ul {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.user-settings__box {
+    overflow: hidden;
+    position: relative;
+    border-radius: 1px;
+    background-color: #ffffff;
+    box-shadow: 0 9px 17px 0 #eef2f6;
+    border: solid 1px #e6ebf0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.user-settings__box-wrapper {
+    width: 10000px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.user-settings__box-content {
+    padding: 20px;
+    width: 800px;
+    float: left;
+    max-height: 1px;
+    -webkit-transition: all 600ms ease-in;
+    -o-transition: all 600ms ease-in;
+    transition: all 600ms ease-in;
+}
+
+.user-settings__box-content:first-child {
+    max-height: 357px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.user-settings__box-content.active {
+    max-height: 700px;
+}
+
+.user-settings__gender {
+    margin: 80px 0;
+}
+
+.user-settings__birtday {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.user-settings__interests {
+    margin: 20px 0;
+}
+
+.user-settings__priority {
+    margin: 45px 0 0;
+}
+
+.user-settings__plan {
+    margin: 45px 0 40px;
+}
+
+.user-settings__box-arrows {
+    width: 100%;
+    position: relative;
+}
+
+.user-settings__box-arrow-left,
+.user-settings__box-arrow-right {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 100px;
+    cursor: pointer;
+}
+
+.user-settings__box-arrow-left.disabled,
+.user-settings__box-arrow-right.disabled {
+    opacity: .2;
+    cursor: default;
+}
+
+.user-settings__box-arrow-left {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    left: -10%;
+}
+
+.user-settings__box-arrow-right {
+    right: -10%;
+}
+
+.user-settings__interests .vocab-test__words__element__content {
+    margin-bottom: 10px;
+}
+
+.user-settings__plan .vocab-word_icon.vocab-test__words__element__content {
+    width: auto;
+}
+
+.user-settings__level-text-item {
+    padding: 0 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.vocab-word_status_disabled.vocab-test__words__element_blue.is-active .vocab-test__words__element__check {
+    background: #cecece url(/wp-content/themes/english/assets/images/vocab-test/vocab-test-check.svg) center center no-repeat;
+}
+
+.vocab-word_status_disabled.vocab-test__words__element_blue {
+    background-color: #f1f1f1;
+}
+
+.vocab-word_status_disabled {
+    opacity: .55;
+}
+
+.vocab-word__icon_status_disabled {
+    opacity: .35;
+}
+
+
+/* user-settings__level-list */
+
+.user-settings__level {
+    padding-bottom: 10px;
+}
+
+.user-settings__level-list .block-levels--index .b-level__item {
+    width: 19%;
+}
+
+.user-settings__level-list .block-levels--index .b-level__item img {
+    max-height: 63px;
+}
+
+.user-settings__level-list .b-level__text {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.user-settings__level-list .b-level__item {
+    height: 100px;
+    position: relative;
+}
+
+.user-settings__level-list .b-level__item.active::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 53px;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 16px;
+    height: 16px;
+    background: url('/templates/svg/icons/check-circle.svg') 0 0 no-repeat;
+}
+
+.user-settings__level-list .block-levels--index {
+    padding-bottom: 0;
+}
+
+.user-settings__level-list .block-levels--index .b-level__item {
+    border-bottom: 1px solid #f5f5f5;
+    display: inline-block;
+}
+
+.user-settings__level-list .b-level__item.active {
+    border-bottom: 2px solid #fdb32b;
+}
+
+.user-settings__level-set .user-settings__level-set-link .puzzle-icon {
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+.user-settings__level-set.is-open .user-settings__level-set-link .puzzle-icon {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.user-settings__test__group_box {
+    margin-bottom: 10px;
+}
+
+.user-settings__test__group_box select {
+    font-size: 18px;
+    width: 100px;
+    text-align: right;
+}
+
+/* Small devices (tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .user-settings {
+        overflow: hidden;
+    }
+
+    .level-test_user-target .level-test__progress__list__item:last-child .level-test__progress__list__item__title {
+        margin-left: -40px;
+    }
+
+    .level-test_user-target .level-test__progress__list__item:last-child .level-test__progress__list__item__icon {
+        right: 30px !important;
+    }
+
+    .user-settings__birtday .puzzle-select_size_m {
+        margin-bottom: 20px;
+    }
+
+    .user-settings__level-list .block-levels--index .b-level__item {
+        width: 12%;
+    }
+
+}
+
+/*Extra small devices (phones)*/
+
+@media only screen and (min-width: 425px) and (max-width : 767px) {
+
+    .user-settings__box-content {
+        width: 350px;
+        padding: 20px 10px;
+    }
+
+    .user-settings__priority-title {
+        margin-bottom: 20px;
+    }
+
+    .user-settings__box {
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (max-width : 425px) {
+
+    .user-settings__box-content {
+        width: 300px;
+        padding: 20px 10px;
+    }
+
+    .user-settings__box {
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .user-settings__priority-title {
+        margin-bottom: 20px;
+    }
+
+    .user-settings__box-arrows {
+        z-index: 1;
+    }
+
+    .user-settings__level-list .block-levels--index .b-level__item {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .block-levels--index {
+        padding-top: 12px;
+    }
+
+    .user-settings__level-description,
+    .user-settings__level-text-item {
+        padding: 0 40px;
+    }
+
+    .user-settings__box-content.active {
+        max-height: 970px;
+    }
+
+    .user-settings__box-content .border-link {
+        min-width: 160px;
+    }
+
+}
+
+
+

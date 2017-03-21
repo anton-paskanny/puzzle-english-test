@@ -1,0 +1,146 @@
+.border-link {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 6px;
+    padding: 8px 12px;
+    text-decoration: none;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.border-link_size_m {
+    padding: 6px 20px;
+    font-size: 12px;
+    border-width: 2px;
+}
+
+.border-link_size_l {
+    padding: 11px 20px 13px;
+    font-size: 14px;
+    border-width: 2px;
+}
+
+.border-link_size_xl {
+    padding: 14px 28px 15px;
+    font-size: 18px;
+    border-width: 2px;
+}
+
+.border-link_va_m {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.border-link_green {
+    color: #79c177 !important;
+    border-color: #79c177;
+}
+
+.border-link_green:hover {
+    color: #fff !important;
+    background-color: #79c177;
+}
+
+.border-link_blue {
+    color: #1caaec !important;
+    border-color: #1caaec;
+}
+
+.border-link_blue:hover {
+    color: #fff !important;
+    background-color: #1caaec;
+}
+
+.border-link_c_fff-white {
+    color: #fff !important;
+    border-color: #fff;
+}
+
+.border-link_c_fff-white:hover {
+    color: #343434 !important;
+    background-color: #fff;
+}
+
+.border-link_style_green {
+    color: #79c177 !important;
+    border-color: #79c177;
+}
+
+.border-link_style_green:hover {
+    color: #fff !important;
+    background-color: #79c177;
+}
+
+.border-link_style_blue {
+    color: #1caaec !important;
+    border-color: #1caaec;
+}
+
+.border-link_style_blue:hover {
+    color: #fff !important;
+    background-color: #1caaec;
+}
+
+.border-link_style_white {
+    color: #fff !important;
+    border-color: #fff;
+}
+
+.border-link_style_white:hover {
+    color: #343434 !important;
+    background-color: #fff;
+}
+
+.border-link_style_black {
+    color: #333 !important;
+    border-color: #333;
+}
+
+.border-link_style_black:hover {
+    color: #fff !important;
+    background-color: #333;
+}
+
+.border-link_style_gray {
+    color: #b4b4b4 !important;
+    border-color: #e8e8e8;
+}
+
+.border-link_style_gray:hover {
+    color: #000 !important;
+    background-color: #e8e8e8;
+}
+
+.border-link_style_red {
+    color: #dd3a26 !important;
+    border-color: #dd3a26;
+}
+
+.border-link_style_red:hover {
+    color: #fff !important;
+    background-color: #dd3a26;
+}
+
+.border-link_style_light-gray {
+    color: #0a96d1 !important;
+    border-color: #dbdbdb;
+}
+
+.border-link_style_light-gray:hover {
+    color: #fff !important;
+    background-color: #dbdbdb;
+}
+
+
+
+
+
+
+
+

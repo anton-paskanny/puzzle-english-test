@@ -1,0 +1,53 @@
+.face-checkbox {
+    cursor: pointer;
+}
+
+.face-checkbox__target {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: solid 1px #c2ceda;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.face-checkbox__target_status_checked {
+    border-color: #0460a0;
+}
+
+.face-checkbox__target_status_checked::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.face-checkbox_style_blue .face-checkbox__target_status_checked::after {
+    background-color: #0460a0;
+}
+
+.face-checkbox__pic {
+    display: block;
+    width: 37px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.face-checkbox__pic_peter {
+    width: 37px;
+    height: 50px;
+}
+
+.face-checkbox__pic_woman-3 {
+    width: 53px;
+    height: 50px;
+}

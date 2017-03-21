@@ -1,0 +1,58 @@
+.speech-balloon {
+    position: relative;
+    display: inline-block; *display: inline; *zoom: 1;
+    border: 1px solid #cacaca;
+    padding: 10px 13px;
+    text-align: center;
+    -webkit-border-radius:  7px;
+    border-radius:          7px;
+}
+
+.speech-balloon_style_beige {
+    background-color: #f4f9ee;
+    color: #333333;
+}
+
+.speech-balloon_style_bubbles::after,
+.speech-balloon_style_bubbles::before {
+    content: "";
+    display: block;
+    position: absolute;
+    border: 1px solid #cacaca;
+    background-color: #fff;
+}
+
+.speech-balloon_style_bubbles::after {
+    left: -26px;
+    bottom: 18px;
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius:  5px;
+    border-radius:          5px;
+}
+
+.speech-balloon_style_bubbles::before {
+    left: -19px;
+    bottom: 6px;
+    width: 13px;
+    height: 13px;
+    -webkit-border-radius:  8px;
+    border-radius:          8px;
+}
+
+.speech-balloon_style_corner-left-top::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url('/templates/svg/icons/welcome/balloon_corner3.svg') 0 0 no-repeat;
+    width: 56px;
+    height: 43px;
+    left: -56px;
+    top: 30px;
+}
+
+.puzzle-subheader .speech-balloon {
+    text-align: left;
+    padding: 30px 35px;
+    border-radius: 20px;
+}

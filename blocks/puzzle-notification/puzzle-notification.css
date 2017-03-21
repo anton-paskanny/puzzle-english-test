@@ -1,0 +1,97 @@
+.puzzle-notification {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    width: 350px;
+    background-color: #fff;
+    border: 3px solid #f9c433;
+    padding: 20px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 2px;
+    display: none;
+    z-index: 99999;
+}
+
+.puzzle-notification__header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+}
+
+.puzzle-notification__header__pic,
+.puzzle-notification__header__text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.puzzle-notification__header__pic {
+    max-width: 47px;
+    max-height: 47px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.puzzle-notification__header__pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.puzzle-notification__header__text {
+    width: 210px;
+    max-height: 35px;
+    overflow: hidden;
+    color: #383838;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.puzzle-notification__content__text {
+    color: #383838;
+    font-size: 14px;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.puzzle-notification__close {
+    width: 20px;
+    height: 20px;
+    padding-top: 4px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.puzzle-notification__close__icon {
+    width: 12px;
+    height: 12px;
+}
+
+.puzzle-notification__close__icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+/*Extra small devices (phones)*/
+
+@media only screen and (max-width : 767px) {
+
+    .puzzle-notification {
+        right: 0;
+        width: 80%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

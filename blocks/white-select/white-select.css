@@ -1,0 +1,53 @@
+.white-select {
+    position: relative;
+}
+
+.white-select select {
+    width: 168px;
+    height: 45px;
+    padding: 0 45px 0 15px;
+    font-size: 18px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 3px;
+    background-image: url('white-select-triangle.svg');
+    background-position: 95% 50%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.white-select select::-ms-expand {
+    display: none;
+}
+
+.white-select_border_gray select {
+    border: 1px solid #dfdfdf;
+}
+
+.white-select_size_l select {
+    width: 300px;
+}
+
+.white-select_va_middle {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.white-select_ml_15 {
+    margin-left: 15px;
+}
+
+/*Extra small devices (phones)*/
+
+@media only screen and (max-width : 767px) {
+
+    .white-select select {
+        max-width: 100%;
+    }
+
+}

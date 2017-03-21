@@ -1,0 +1,41 @@
+.friend-invite {
+    padding: 15px 25px 23px;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.friend-invite_view_landing {
+    padding: 14px 0 54px;
+}
+
+.friend-invite_style_gray {
+    background-color: #f6f6f6;
+}
+
+.friend-invite_style_gray .puzzle-input {
+    background-color: #fff;
+}
+
+.friend-invite_style_ocean-blue {
+    background-color: #0460a0;
+    color: #fff;
+}
+
+.friend-invite_style_light-blue {
+    background-color: #0a96d1;
+    color: #fff;
+}
+
+.friend-invite-top-icon {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

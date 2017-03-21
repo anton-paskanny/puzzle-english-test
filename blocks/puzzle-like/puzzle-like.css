@@ -1,0 +1,14 @@
+.puzzle-like {
+    cursor: pointer;
+}
+
+.puzzle-like:hover .puzzle-icon svg path {
+    fill: #adadad;
+    stroke: #adadad;
+}
+
+.puzzle-like_status_clicked .puzzle-icon svg path,
+.puzzle-like_status_clicked:hover .puzzle-icon svg path {
+    fill: #e56969;
+    stroke: #e56969;
+}

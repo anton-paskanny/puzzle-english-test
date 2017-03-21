@@ -1,0 +1,75 @@
+.checkbox-line {
+    cursor: pointer;
+}
+
+.checkbox-line_va_middle {
+    display: inline-block;
+    vertical-align: middle;
+ }
+
+.checkbox-line__text_fz_medium {
+    font-size: 14px;
+}
+
+.checkbox-line__text {
+    margin-left: 5px;
+    max-width: 90%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+@media screen and (max-width: 767px) {
+    .checkbox-line__text {
+        max-width: 80%;
+    }
+}
+
+ /* check-box */
+
+.check-box__target {
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: top;
+ }
+
+.check-box__target_bgc_gray-e2e2e2 {
+    background-color: #e2e2e2;
+}
+
+.checkbox-line_style_white .check-box__target {
+    background-color: #fff;
+    box-shadow: 0 0 0 2px #bebebe;
+}
+
+.check-box__target_size_medium,
+.check-box_size_medium {
+    width: 14px;
+    height: 14px;
+}
+
+.check-box__target_size_large,
+.check-box_size_large {
+    width: 18px;
+    height: 18px;
+}
+
+.checkbox-line_style_white .check-box__target_size_large .check-box__target {
+    background-color: #fff;
+    box-shadow: 0 0 0 2px #bebebe;
+}
+
+.check-box__target_checked {
+    background-image: url('/wp-content/themes/english/images/unsubscribe_arrow.png');
+    background-repeat: no-repeat;
+    background-position: 17px center;
+    background-position: center center;
+    background-size: 90%;
+}
+
+.check-box__target_size_large.check-box__target_checked {
+    -webkit-background-size: 75%;
+    background-size: 75%;
+}

@@ -1,0 +1,375 @@
+.b-teacher-plan {
+    margin-bottom:30px;
+}
+
+.b-teacher-plan * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.b-teacher-plan__title {
+    font-family: MuseoCyrl-500, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 30px;
+    color: #323b46;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.b-teacher-plan__title.is-good {
+    color: #62c162;
+}
+
+.b-teacher-plan__title.is-attention {
+    color: #e22817;
+}
+
+.b-teacher-plan__title.is-attention .puzzle-icon {
+    vertical-align: -7px;
+}
+
+.b-teacher-plan__box {
+    background-color: #fff;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.b-teacher-plan .teacher-second__lessons__item:hover {
+    cursor: pointer;
+    background-color: #f8f8f8;
+}
+
+
+.b-teacher-plan .teacher-second__lessons__item__num::after {
+    content: none;
+}
+
+
+/*
+ * Name and description of lesson
+ */
+
+.b-teacher-plan .teacher-second__lessons__item__text__title-mini {
+    font-family: 'Segoe UI', Ubuntu, Tahoma, Geneva;
+    font-size: 14px;
+    line-height: normal;
+    color: #7e9595;
+}
+
+.b-teacher-plan .teacher-second__lessons__item__text__title-big {
+    font-family: 'Segoe UI', Ubuntu, Tahoma, Geneva;
+    font-size: 22px;
+    color: #203636;
+    margin-bottom: 2px;
+}
+
+.b-teacher-plan .teacher-second__lessons__item.is-disabled .teacher-second__lessons__item__text {
+    opacity: 1;
+}
+
+.b-teacher-plan .teacher-second__lessons__item {
+    padding: 16px 19px 17px 11px;
+    min-height: 82px;
+    height: auto;
+    font-size: 0; /* THAT there're no gaps between the inline-block */
+    text-align: justify;
+    border-bottom: 1px solid #ececec;
+}
+
+.b-teacher-plan__header {
+    padding: 16px 19px 17px 11px;
+    min-height: auto;
+    height: auto;
+    font-size: 0; /* THAT there're no gaps between the inline-block */
+    text-align: justify;
+    border-bottom: 1px solid #ececec;
+}
+
+.b-teacher-plan__header::after {
+    display: inline-block;
+    content: '';
+    width: 100%;
+}
+
+.b-teacher-plan__header_left {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 87%;
+}
+
+.b-teacher-plan__header_right {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/*
+ * Navigation by date
+ */
+
+.b-teacher-plan__date {
+    font-size: 20px;
+}
+
+
+/*
+ * Elements of the item
+ */
+
+
+.b-teacher-plan .teacher-second__lessons__item__num {
+    line-height: 50px;
+    padding-top: 0;
+}
+
+.b-teacher-plan__time {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #7e9595;
+}
+
+.b-teacher-plan__delete {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    margin-left: 30px;
+}
+
+.b-teacher-plan__delete path {
+    fill: #d0021b;
+}
+
+.b-teacher-plan__delete:hover path {
+    fill: #fb2741;
+}
+
+.b-teacher-plan__delete .puzzle-icon {
+    vertical-align: middle;
+}
+
+
+/*
+ * There is PROGRESS in header
+ */
+
+.b-teacher-plan__progress {}
+
+.b-teacher-plan__progress .test-progress {
+    width: 400px;
+    height: 9px;
+    background-color: #f1f5f8;
+}
+
+.b-teacher-plan__progress .test-progress__exam-success {
+    height: 9px;
+    background-color: #3bb4ac;
+}
+
+
+/*
+ * There is NOTE in end of page
+ */
+
+.b-teacher-plan__end {
+    font-family: 'Segoe UI', Ubuntu, Tahoma, Geneva;
+    font-size: 14px;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+.b-teacher-plan__end .puzzle-icon {
+    vertical-align: middle;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+/*
+ * Page of settings of mail notification
+ */
+
+.b-teacher-notification {
+    width: 440px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Ubuntu, Tahoma, Geneva;
+    font-size: 14px;
+    color: #4a4a4a;
+    overflow: hidden;
+}
+
+.b-teacher-notification__field {}
+
+.b-teacher-notification__title {
+    margin-bottom: 20px;
+}
+
+
+.b-teacher-plan__settings {
+    max-width: 440px;
+    margin: 0 auto;
+}
+
+.b-teacher-plan__settings_popup {
+    position: relative;
+    display: inline-block;
+}
+
+.b-teacher-plan__settings_wrap .b-teacher-plan__box {
+    margin:0;
+}
+
+.b-teacher-plan__settings_wrap {
+    display: none;
+    width: 538px;
+    position: absolute;
+    left: -370px;
+    bottom: 200%;
+    z-index: 300;
+    margin: 0;
+    background: #fff;
+    border-radius: 2px 0 2px 2px;
+    -webkit-box-shadow: 5px 0 30px 0 rgba(0,0,0,0.3);
+    box-shadow:         5px 0 30px 0 rgba(0,0,0,0.3);
+}
+
+.b-teacher-plan__settings_wrap::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    right: 27.5%;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #fff;
+}
+
+
+/*
+ * User-settings of a calendar
+ */
+
+.vocab-test__words__element_green {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+.vocab-test__words__element_green.is-active {
+    background-color: #3bb4ac;
+    border-radius: 1px;
+}
+
+.vocab-test__words__element_green .vocab-test__words__element__main {
+    font-size: 12px;
+    padding: 8px 40px 8px 20px;
+    border: none;
+}
+
+.vocab-test__words__element_green.is-active + .vocab-test__words__element__main {
+    border: none;
+    padding: 8px 40px 8px 20px;
+}
+
+.vocab-test__words__element_green .vocab-test__words__element__check {
+    width: 35px;
+    height: 35px;
+    background: #fff url('/wp-content/themes/english/assets/images/vocab-test/vocab-test-check-dash.svg') center center no-repeat;
+    border: 1px solid #c2ceda;
+    border-radius: 1px;
+}
+
+.vocab-test__words__element_green .vocab-test__words__element__check:hover {
+    background-position: center;
+    border-color: #b9c6d3;
+}
+
+.vocab-test__words__element_green.is-active .vocab-test__words__element__check {
+    background-color: transparent;
+    background-image: url('/wp-content/themes/english/assets/images/vocab-test/vocab-test-check.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-color: transparent;
+}
+
+.b-teacher-plan .range-slider__handle {
+    background: #c2ceda;
+}
+
+.b-teacher-plan .range-slider__handle::before {
+    border-top: 4px solid #c2ceda;
+}
+.b-teacher-plan .range-slider_bottom-text {
+    color: #bdcadb;
+    text-align: center;
+    padding-top: 20px;
+}
+.b-teacher-plan .range-slider_bottom-text a {
+    color: #000;
+    display: inline-block;
+    float: right;
+    text-decoration: underline;
+}
+.b-teacher-plan .range-slider_numbers .range-slider__divider i {
+    color: #000;
+}
+.b-teacher-plan .range-slider__divider {
+    border-right-color: #c2ceda;
+}
+
+.b-teacher-plan .range-slider_green .range-slider__fill {
+    background-color: #3bb4ac;
+}
+.b-teacher-plan .range-slider__content, .range-slider__fill {
+    background-color: #f1f5f8;
+}
+.range-slider_numbers {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.b-teacher-plan-date-scroll-container {
+    width:960px;
+    height: 50px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.b-teacher-plan-date-scroll {
+    max-width:10000px;
+    overflow:scroll;
+}
+
+.b-teacher-plan-date-scroll a {
+    display:inline-block;
+    margin:0 10px;
+    width:100px;
+}
+
+.teacher-plan-box .b-calendar__nav a, .teacher-plan-box .b-calendar__nav svg path {
+    color:#000 !important;
+    fill:#000;
+}
+
+.b-teacher-plan__nextday {
+    text-align:center;
+    font-size:18px;
+    margin-top:15px;
+    margin-bottom:8px;
+}
+
+
+.b-teacher-plan__notify {
+    text-align:center;
+    font-size:12px;
+    margin-bottom:30px;
+}
+
+.plan_error {
+    color:red;
+    text-align:center;
+    font-size:16px;
+    margin-bottom:20px;
+}

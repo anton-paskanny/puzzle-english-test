@@ -1,0 +1,397 @@
+.puzzle-comments__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block !important;
+}
+
+.puzzle-comments__list li {
+    list-style-type: none;
+}
+
+.puzzle-comments__list > li {
+    list-style-type: none;
+    border-radius: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.puzzle-box:not(.puzzle-box_type_top-comments) .puzzle-comments__item:not(.pe-comment-child):not(:first-child) {
+    border-top: 2px solid #f6f6f6;
+    padding-top: 40px;
+}
+
+.puzzle-comments__item_status_expert .round-avatar {
+    -webkit-box-shadow: 0 0 0 4px #6fb26d;
+    box-shadow: 0 0 0 4px #6fb26d;
+}
+
+.puzzle-comments__item_status_expert .round-avatar {
+    -webkit-box-shadow: 0 0 0 4px #6fb26d;
+    box-shadow: 0 0 0 4px #6fb26d;
+}
+
+.puzzle-comment__form .round-avatar {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.puzzle-comments .puzzle-comments__title .puzzle-icon {
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.puzzle-commments__item .puzzle-comment__form {
+    border-top:1px solid #ccc;
+}
+
+.puzzle-comments.is-open .puzzle-comments__title .puzzle-icon {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.puzzle-comments__list .children {
+    padding-left: 8.333%;
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid #efefef;
+}
+
+.puzzle-comment_form_error {
+    padding-top:3px;
+    font-size:12px;
+    color:red;
+}
+
+.puzzle-comments__edit {
+    margin-bottom:30px;
+}
+
+.puzzle-comment_form_error {
+    color:#e63737;
+}
+
+.puzzle-comments__title.puzzle-text_fz_18.puzzle-comments__title_js_click {
+    display: none;
+}
+
+a.border-link.border-link_size_m.border-link_blue.puzzle-comments__reply {
+    border-width: 1px;
+    text-decoration: underline;
+    border: none;
+}
+
+.puzzle-comments__title_js_click .puzzle-link_style_dashed {
+    border-bottom: none !important;
+    cursor: default;
+}
+
+.puzzle-comments__title_js_click .puzzle-icon {
+    display: none;
+}
+
+.puzzle-box_type_top-comments .puzzle-comments__list > li {
+    background: none;
+    padding: 0;
+    border: none;
+    margin-bottom: 60px;
+}
+
+.puzzle-box_type_top-comments .puzzle-comments__list > li:last-child {
+    margin-bottom: 0;
+}
+
+.puzzle-comment__author {
+    line-height: 1;
+    position: relative;
+}
+
+.puzzle-comment__author > span {
+    font-weight: bold;
+    border-bottom: 1px dashed #333;
+    line-height: 1.1;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.puzzle-comments__item-wrap {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    -o-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+}
+
+.puzzle-comments__point {
+    width: 5px;
+    height: 5px;
+    background-color: #d8d8d8;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.puzzle-comment__date {
+    line-height: 1;
+    height: 15px;
+}
+
+.puzzle-comments__likes {
+    line-height: 1.1;
+}
+
+.puzzle-comments__likes_style_gray .puzzle-comments__likes-count {
+    background-color: #eee;
+    color: #a5a5a5;
+}
+
+.puzzle-comments__likes_style_red .puzzle-comments__likes-count {
+    background-color: #f9dbdc;
+    color: #d7585a;
+}
+
+.puzzle-comments__likes-count {
+    position: relative;
+    width: 30px;
+    height: 18px;
+    background-color: #d8f3d7;
+    color: #71b26f;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 2px;
+    cursor: default;
+}
+
+.puzzle-comments__thumb-up,
+.puzzle-comments__thumb-down {
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.puzzle-comments__item:hover .puzzle-comments__thumb-up,
+.puzzle-comments__item:hover .puzzle-comments__thumb-down {
+    visibility: visible;
+}
+
+.puzzle-comments__likes-text {
+    font-size: 14px;
+    color: #a5a5a5;
+    line-height: 1;
+    height: 16px;
+}
+
+.puzzle-comments__likes-link {
+    line-height: 1;
+    height: 16px;
+}
+
+.puzzle-comments__likes-link span {
+    height: 14px;
+    vertical-align: top;
+}
+
+.puzzle-comment__status {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #71b26f;
+}
+
+.puzzle-comments__link {
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.puzzle-comments__link span {
+    font-size: 14px !important;
+    color: #1caaec !important;;
+    border-bottom: 1px dashed #1caaec;
+    text-decoration:none !important;
+    display: inline-block;
+    line-height: 1;
+}
+.expertTitleA{
+    color: inherit !important;
+    border-bottom: 1px dashed;
+}
+.expertTitleA:hover{
+    border-bottom:none;
+}
+
+.puzzle-comments__link-favorite:hover svg path {
+    fill: #00a9ef;
+}
+
+.puzzle-comments__link-favorite.is-active svg path, .is-active svg path{
+    fill: #f8bb18;
+}
+
+.puzzle-comments__subscribe-check .vocab-test__words__element__check,
+.puzzle-comments__subscribe-check .vocab-test__words__element__main {
+    vertical-align: middle !important;
+    display: inline-block;
+    float: none;
+    padding: 0;
+    border: none;
+}
+
+.puzzle-comments__subscribe-check .vocab-test__words__element__main {
+    margin-left: 5px;
+    text-align: left;
+    width: auto;
+    color: #a5a5a5;
+    font-size: 14px;
+    border: none !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.puzzle-comments__subscribe-check .vocab-test__words__element__check {
+    background: #fff;
+    border-radius: 4px;
+    border: solid 2px #71b26f;
+    width: 30px;
+    height: 30px;
+}
+
+.puzzle-comments__subscribe-check.vocab-test__words__element__content {
+    margin-bottom: 0;
+}
+
+.puzzle-comments__subscribe-check.is-active .vocab-test__words__element__check {
+    background: #71b26f url('/wp-content/themes/english/assets/images/vocab-test/vocab-test-check.svg') center center no-repeat;
+    border-color: #71b26f;
+}
+
+.puzzle-comments__link-reply:hover .puzzle-icon svg path {
+    fill: #00a9ef;
+}
+
+.puzzle-comments__right-content {
+    width: 100%;
+}
+
+.b-add_comment__send_btn {
+    max-width: 100%;
+}
+
+.puzzle-comment__author-popup {
+    font-size: 14px;
+}
+
+.puzzle-comment__author-popup_temp {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
+    width: 480px;
+}
+
+.puzzle-comment__author-popup-title {
+    font-weight: 500;
+}
+
+.puzzle-comment__author-popup-scores {
+    padding: 4px 8px;
+    background-color: #fbd84d;
+}
+
+.puzzle-comment__author-popup-list {
+    margin: 0 0 0 0;
+}
+
+.puzzle-comment__author-popup-list .puzzle-footer__bottom__social__item {
+    width: 34px;
+    height: 34px;
+    border-radius: 6px;
+    margin: 0;
+    margin-right: 5px;
+}
+
+.puzzle-comment__author-popup-list .puzzle-footer__bottom__social__item a {
+    border-radius: 6px;
+}
+
+.puzzle-comment__author-popup-list .puzzle-footer__bottom__social__item.is-vk a {
+    background-color: #27709b;
+}
+
+.puzzle-comment__author-popup-list .puzzle-footer__bottom__social__item a svg path {
+    fill: #fff;
+}
+
+.puzzle-comment__author-popup-list .puzzle-footer__bottom__social__item.is-facebook a {
+    background-color: #405fa0;
+}
+
+.puzzle-comment__author-popup-list .puzzle-footer__bottom__social__item.is-ok a {
+    background-color: #ee8209;
+}
+
+.puzzle-comment__author-popup-list .puzzle-footer__bottom__social__item.is-vk a span {
+    width: 21px;
+    height: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

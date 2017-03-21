@@ -1,0 +1,92 @@
+.puzzle-tooltip_style_buble .jBox-container {
+    border-radius: 7px !important;
+}
+
+.puzzle-tooltip_theme_dark .jBox-container {
+    background: #414040;
+    color: #fff;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.puzzle-tooltip_theme_dark .jBox-pointer::after {
+    background: #414040;
+}
+
+.puzzle-tooltip_theme_blue .jBox-container {
+    background: #1da5de;
+    color: #fff;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.puzzle-tooltip_theme_blue .jBox-pointer::after {
+    background: #1da5de;
+}
+
+.puzzle-tooltip_theme_white-blue .jBox-container {
+    background: #f0f6fa;
+    color: #333;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.puzzle-tooltip_theme_white-blue .jBox-pointer::after {
+    background: #f0f6fa;
+}
+
+.puzzle-tooltip_size_m .jBox-container {
+    padding: 2px 9px 4px;
+    font-size: 14px;
+}
+
+.puzzle-tooltip_size_m.puzzle-tooltip_style_buble .jBox-container {
+    padding: 12px 13px 14px 12px;
+}
+
+.puzzle-tooltip_size_m .jBox-pointer-bottom::after {
+    width: 10px;
+    height: 10px;
+    bottom: 9px;
+    left: 2.5px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.puzzle-tooltip_size_m .jBox-pointer-top, .puzzle-tooltip_size_m .jBox-pointer-bottom {
+    width: 15px;
+}
+
+.puzzle-tooltip_size_l .jBox-container {
+    padding: 18px 20px 22px;
+    font-size: 16px;
+}
+
+.puzzle-tooltip_size_l.puzzle-tooltip_style_buble .jBox-container {
+    padding: 12px 13px 14px 12px;
+}
+
+.puzzle-tooltip_size_l .jBox-pointer-top::after {
+    width: 10px;
+    height: 10px;
+    bottom: 9px;
+    left: 2.5px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.puzzle-tooltip_size_l .jBox-pointer-top, .puzzle-tooltip_size_m .jBox-pointer-bottom {
+    width: 15px;
+}
+
+.puzzle-tooltip_pos_center-bottom .jBox-pointer-top {
+    left: 97% !important;
+}
+
+.puzzle-tooltip_theme_comments .jBox-pointer::after {
+    content: none;
+}
+
+.puzzle-tooltip_theme_comments .jBox-content {
+    overflow: hidden;
+}

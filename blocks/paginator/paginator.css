@@ -1,0 +1,23 @@
+.paginator__item {
+    float: left;
+    border-radius: 2px;
+}
+
+.paginator_size_m .paginator__item a {
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: -ms-inline-flex;
+    display: -o-inline-flex;
+    display: inline-flex;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.paginator_style_blue .paginator__item_status_active a {
+    background-color: #039edf;
+    color: #fff;
+}

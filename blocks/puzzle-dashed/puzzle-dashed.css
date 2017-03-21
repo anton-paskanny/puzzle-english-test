@@ -1,0 +1,149 @@
+.puzzle-dashed {
+    width: 78px;
+    height: 41px;
+    margin: 0 7px;
+}
+
+.puzzle-dashed svg {
+    width: 100%;
+    height: 100%;
+}
+
+.puzzle-dashed svg {
+    width: 100%;
+    height: 100%;
+    -webkit-animation-name: puzzle-scale;
+    -o-animation-name: puzzle-scale;
+    animation-name: puzzle-scale;
+    -webkit-animation-duration: 1.1s;
+    -o-animation-duration: 1.1s;
+    animation-duration: 1.1s;
+    -webkit-animation-timing-function: ease-out;
+    -o-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.puzzle-dashed_anim_scale svg path,
+.puzzle-dashed_anim_scale svg use {
+    fill: #ddf6dd;
+    stroke: #54bb53;
+}
+
+@-webkit-keyframes puzzle-scale {
+
+    from {
+        -webkit-transform: scale(1, 1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1, 1.1);
+    }
+
+    to {
+        -webkit-transform: scale(1, 1);
+    }
+}
+@-o-keyframes puzzle-scale {
+
+    from {
+        -o-transform: scale(1, 1);
+    }
+
+    50% {
+        -o-transform: scale(1.1, 1.1);
+    }
+
+    to {
+        -o-transform: scale(1, 1);
+    }
+}
+@-moz-keyframes puzzle-scale {
+
+    from {
+        -moz-transform: scale(1, 1);
+    }
+
+    50% {
+        -moz-transform: scale(1.1, 1.1);
+    }
+
+    to {
+        -moz-transform: scale(1, 1);
+    }
+}
+@keyframes puzzle-scale {
+
+    from {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+
+    to {
+        transform: scale(1, 1);
+    }
+}
+
+
+
+@-webkit-keyframes puzzle-scale-mini {
+
+    from {
+        -webkit-transform: scale(1, 1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.05, 1.05);
+    }
+
+    to {
+        -webkit-transform: scale(1, 1);
+    }
+}
+@-o-keyframes puzzle-scale-mini {
+
+    from {
+        -o-transform: scale(1, 1);
+    }
+
+    50% {
+        -o-transform: scale(1.03, 1.03);
+    }
+
+    to {
+        -o-transform: scale(1, 1);
+    }
+}
+@-moz-keyframes puzzle-scale-mini {
+
+    from {
+        -moz-transform: scale(1, 1);
+    }
+
+    50% {
+        -moz-transform: scale(1.03, 1.03);
+    }
+
+    to {
+        -moz-transform: scale(1, 1);
+    }
+}
+@keyframes puzzle-scale-mini {
+
+    from {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.03, 1.03);
+    }
+
+    to {
+        transform: scale(1, 1);
+    }
+}

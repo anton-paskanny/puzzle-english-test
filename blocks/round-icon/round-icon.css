@@ -1,0 +1,98 @@
+.round-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 2;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.round-icon_green {
+    background-color: #54bb53;
+}
+
+.round-icon_blue {
+    background-color: #0460a0;
+}
+
+.round-icon_orange {
+    background-color: #f5a623;
+}
+
+.round-icon_red {
+    background-color: #d0021b;
+}
+
+.round-icon_gray {
+    background-color: #bdcadb;
+}
+
+.round-icon_style_green {
+    background-color: #54bb53;
+}
+
+.round-icon_style_blue {
+    background-color: #0460a0;
+}
+
+.round-icon_style_orange {
+    background-color: #f5a623;
+}
+
+.round-icon_style_red {
+    background-color: #d0021b;
+}
+
+.round-icon_style_gray {
+    background-color: #bdcadb;
+}
+
+.round-icon_style_white {
+    background-color: #fff;
+}
+
+.round-icon_turquoise {
+    background-color: #69b4aa;
+}
+
+.round-icon_white-blue {
+    background-color: #f0f6fa;
+}
+
+.round-icon > i,
+.round-icon > span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.round-icon_size_m {
+    width: 20px;
+    height: 20px;
+}
+
+.round-icon_size_l {
+    width: 30px;
+    height: 30px;
+}
+
+.round-icon_size_xl {
+    width: 45px;
+    height: 45px;
+}
+
+.round-icon_size_xxl {
+    width: 56px;
+    height: 56px;
+}
+
+.round-icon_size_m .puzzle-icon_check {
+    width: 10px;
+    height: 10px;
+}

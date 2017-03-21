@@ -1,0 +1,403 @@
+.mobile-landing__screen_first {
+  padding: 20px 15px;
+  height: 670px;
+}
+
+.mobile-landing_page_main-2 .mobile-landing__screen_first {
+  padding: 20px 10px 50px;
+  height: auto;
+}
+
+.mobile-landing__screen_services {
+  padding: 30px 20px;
+}
+
+.mobile-landing__screen_carousel {
+  padding: 30px 0 40px;
+}
+
+.mobile-landing_os_android .mobile-landing__screen_first {
+  background-color: #dee0af;
+}
+
+.mobile-landing_os_ios .mobile-landing__screen_first {
+  background-color: #dee0af;
+}
+
+.mobile-landing_page_main-2 .mobile-landing__screen_first {
+  background-color: #2892d7;
+}
+
+.mobile-landing__screen_background_blue {
+  background-color: #1db7cb;
+}
+
+.mobile-landing__screen_background_darkblue {
+  background-color: #223243;
+}
+
+.mobile-landing__screen_background_gray {
+  background-color: #f3f3f3;
+}
+
+.mobile-landing__screen_background_contain {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.mobile-landing .puzzle-text {
+  color: #4a4a4a;
+}
+
+.mobile-landing_page_main-2 .mobile-landing__screen_first .puzzle-text {
+    color: #fff;
+}
+
+.mobile-landing__title {
+  font: normal 30px/1.2 SegoeUILight, sans-serif;
+  margin-bottom: 30px;
+}
+
+.mobile-landing__screen_services .mobile-landing__title {
+  margin-bottom: 50px;
+}
+
+.mobile-landing__paragraph {
+  line-height: 1.4;
+}
+
+.mobile-landing .puzzle-button_dark-orange {
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 0 0 #b73b00;
+  box-shadow: 0 3px 0 0 #b73b00;
+  padding-top: 11px;
+  padding-bottom: 4px;
+}
+
+.mobile-landing .puzzle-button_dark-blue {
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 0 0 #0f1821;
+  box-shadow: 0 3px 0 0 #0f1821;
+  padding-top: 11px;
+  padding-bottom: 4px;
+}
+
+.mobile-landing .puzzle-button_green {
+  border-radius: 10px;
+  background: #6fb944;
+  -webkit-box-shadow: 0 3px 0 0 #0b885a;
+  box-shadow: 0 3px 0 0 #0b885a;
+  padding-top: 11px;
+  padding-bottom: 4px;
+}
+
+.mobile-landing__screen_services .mobile-landing__title {
+  text-align: center;
+}
+
+.mobile-services {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  -o-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.mobile-services__item {
+  width: 44%;
+  margin-bottom: 25px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.mobile-landing__screen_services .mobile-services__item {
+  margin-bottom: 35px;
+}
+
+.mobile-services__item-info {
+  width: 220px;
+}
+
+.mobile-landing_page_main-2 .mobile-services__item {
+  width: 100%;
+  overflow: hidden;
+}
+
+.mobile-services__icon {
+  margin-bottom: 15px;
+}
+
+.mobile-landing_page_main-2 .mobile-services__icon {
+  margin-right: 15px;
+  margin-bottom: 0;
+}
+
+.mobile-services__title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.mobile-services__text {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.mobile-services__text strong {
+  font-family: segoeUIbold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.mobile-landing__screen_background_blue .puzzle-text {
+  color: #fff;
+}
+
+.mobile-landing__screen_carousel .mobile-landing__title {
+  padding: 0 10px;
+}
+
+.mobile-landing__screen_carousel .mobile-landing__paragraph {
+  font-size: 20px;
+  margin-bottom: 40px;
+  padding: 0 5px;
+}
+
+.mobile-landing__screen_footer .mobile-landing__fulllink {
+  padding: 40px 0;
+  display: block;
+  width: 100%;
+}
+
+.mobile-landing__screen_background_darkblue .puzzle-link {
+  color: #fff;
+  font-size: 16px;
+}
+
+.mobile-landing-carousel__title {
+  font-family: MuseoCyrl-500, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.mobile-landing-carousel__paragraph {
+  text-align: center;
+  color: #556363;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.mobile-landing__img-responsive {
+  max-width: 100%;
+}
+
+.mobile-landing__screen_devices {
+  background-color: #f8f8f8;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.mobile-landing__screen_devices .mobile-landing__img-responsive {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.mobile-landing__interactive {
+  padding: 50px 0;
+}
+
+.mobile-landing__video-preview {
+  position: relative;
+  width: 533px;
+  height: 305px;
+  margin: 0 auto;
+}
+
+.mobile-landing__video-preview:hover {
+  cursor: pointer;
+}
+
+.mobile-landing__video-preview .puzzle-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.mobile-landing__video-preview:hover .puzzle-icon {
+  opacity: .8;
+}
+
+.mobile-landing__info-block {
+  padding: 15px 190px 17px;
+  background-color: rgba(63, 188, 240, .3);
+  border-radius: 3px;
+  position: relative;
+}
+
+.mobile-landing__info-block-left-icon {
+  position: absolute;
+  left: 80px;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.mobile-landing__info-block-text {
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* Все телефоны */
+
+@media only screen and (max-width : 767px) {
+
+  .mobile-landing__info-block-left-icon {
+    position: static;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    margin-top: -50px;
+  }
+
+  .mobile-landing__info-block {
+    padding: 15px;
+  }
+
+  .mobile-landing_os_android .mobile-landing__screen_first {
+    background-image: url('/wp-content/themes/english/assets/images/mobile-landing/mobile-landing_os_android-1.png');
+  }
+
+  .mobile-landing_os_ios .mobile-landing__screen_first {
+    background-image: url('/wp-content/themes/english/assets/images/mobile-landing/mobile-landing_os_ios-1.png');
+  }
+
+  .mobile-landing_page_main-2 .mobile-landing__screen_first {
+    background-image: url('/wp-content/themes/english/assets/images/mobile-landing/mobile-landing_2.png');
+  }
+
+
+
+
+  .teacher-mobile-landing_os_ios .mobile-services__item,
+  .teacher-mobile-landing_os_android .mobile-services__item {
+    width: 100%!important;
+  }
+
+  .teacher-mobile-landing_os_ios .mobile-services__icon,
+  .teacher-mobile-landing_os_android .mobile-services__icon {
+    float: left;
+    margin-right: 0;
+  }
+
+  .teacher-mobile-landing_os_ios .mobile-services__item-info,
+  .teacher-mobile-landing_os_android .mobile-services__item-info {
+    width: auto;
+    padding-left: 55px;
+    padding-right: 5px;
+  }
+
+}
+
+
+/* Телефоны в ориентации portrait */
+@media only screen and (max-width : 767px) and (orientation: portrait) {
+
+  .mobile-landing__screen_first .mobile-landing__paragraph {
+    margin-bottom: 35px;
+  }
+
+  .mobile-landing__screen_first .mobile-landing__title {
+    margin-bottom: 30px;
+  }
+
+  .mobile-landing__screen_first .puzzle-logo {
+    margin-bottom: 30px;
+  }
+
+}
+
+
+/* Телефоны в ориентации landscape */
+@media only screen and (max-width : 767px) and (orientation: landscape) {
+
+  .mobile-landing_page_main .mobile-landing__screen_first {
+    padding: 20px 35px 50px;
+    height: auto;
+  }
+
+  .mobile-landing_page_main .mobile-landing__screen_background_contain {
+    -webkit-background-size: auto;
+    background-size: auto;
+    background-position: 0 0%;
+  }
+
+  .mobile-landing__screen_first .mobile-landing__paragraph {
+    margin-bottom: 15px;
+  }
+
+  .mobile-landing__title {
+    margin-bottom: 10px;
+  }
+
+  .mobile-landing .puzzle-logo {
+    margin-bottom: 10px;
+  }
+
+}
+
+/* Начиная от планшетов и выше */
+
+@media only screen and (min-width: 768px) {
+
+  .mobile-landing__screen_first .mobile-landing__paragraph {
+    margin-bottom: 30px;
+  }
+
+  .mobile-landing_page_main .mobile-landing__screen_first {
+    height: auto;
+    background: #dee0af;
+  }
+
+  .mobile-landing_page_main .mobile-services {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .mobile-landing_page_main .mobile-services__item {
+    padding: 0 30px;
+  }
+
+  .mobile-landing_page_main-2 .mobile-services__item {
+    width: 49%;
+  }
+
+  .mobile-services__item-info {
+    text-align: left;
+  }
+
+}
+
+
+
+
+
+
+
+
+

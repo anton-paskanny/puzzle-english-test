@@ -1,0 +1,45 @@
+.vitamin-all_justify {
+    text-align: justify;
+}
+
+.vitamin-all_justify::after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+}
+
+.vitamin-all_va_top {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.vitamin-all__title-text {
+    max-width: 400px;
+}
+
+.vitamin-all_ff_museo {
+    font-family: MuseoCyrl-500, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.vitamin-all_fz_30 {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .vitamin-all_fz_30 {
+        font-size: 16px;
+    }
+}
+
+.vitamin-all_va_middle {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.vitamin-all .checkbox-line {
+    padding-left: 20px;
+}
+
+.vitamin-all__title {
+    padding-left: 10px;
+}

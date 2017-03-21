@@ -1,0 +1,228 @@
+.series-light__puzzle-subheader > .l-wrapper {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-start;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.puzzle-subheader__left,
+.puzzle-subheader__right {
+    width: 50%;
+}
+
+.series-light__title {
+    display: block;
+}
+
+.b-serials__favorite-btn {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.series-light__preview-image {
+    width: 300px;
+}
+
+.series-light__preview-image img {
+    max-width: 100%;
+}
+
+.series-light__composition .round-icon {
+    margin-right: 10px;
+}
+
+.series-light__table {
+    margin-bottom: 30px;
+}
+
+.series-light__table thead {
+    border-bottom: 3px solid #e4e4e4;
+    width: 100%;
+    text-align: left;
+}
+
+.series-light__table th {
+    padding: 30px 0 5px;
+    font-weight: normal;
+}
+
+.series-light__table tbody tr {
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.series-light__table tbody td {
+    padding: 15px 0;
+    vertical-align: middle;
+}
+
+.series-light__table .paginator {
+    margin-left: 35px;
+}
+
+.series-light__item-icon {
+    background: url("/wp-content/themes/english/assets/antago/img/icone_sprite.png") no-repeat;
+    height: 19px;
+    width: 20px;
+}
+
+.series-light__item-icon_letter {
+    background-position: -49px 0;
+}
+
+.series-light__item-icon_expression {
+    background-position: 0 0;
+}
+
+.series-light__item-icon_text {
+    background-position: -24px 0;
+}
+
+.series-light__table .puzzle-button_blue,
+.series-light__table .puzzle-button_disabled {
+    padding: 5px 10px;
+}
+
+.series-light__link,
+.series-light__link:visited {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.series-light__popup #video {
+    padding-bottom: 0;
+}
+
+.series-light__popup,
+.series-light__popup-content {
+    width: 100%;
+    height: 100%;
+}
+
+.series-light__popup-content.loading::after {
+    content: '';
+    position: absolute;
+    background: url('/wp-content/themes/english/assets/images/preloader-white.gif');
+    background-size: 100%;
+    width: 64px;
+    height: 64px;
+}
+
+.series-light__popup-content.loading {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    width: 32px;
+    height: 32px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.series-light__popup-content.loading .b-episode_media_container {
+    display: none;
+}
+
+.series-light__popup .puzzle-button_orange {
+    color: #000;
+}
+
+.series-light__free-badge {
+    background: #d5474a;
+    color: #fff;
+    padding: 2px 7px;
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+#vid-subslist .sub .button-play-audio {
+    display: none !important;
+}
+
+.b-episode_without-rus-subs #vid-subslist .sub .text.lang-ru,
+.b-episode_without-rus-subs #vid-subslist .sub-current .text.lang-ru,
+.b-episode_without-rus-subs #video .vid-subs .text.lang-ru,
+.b-episode_without-rus-subs .vjs-control-bar .toggleRuSub-control {
+    display: none;
+}
+
+
+
+
+/*Extra small devices (phones)*/
+
+@media only screen and (max-width : 767px) {
+
+    .series-light__table {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        padding: 0 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .series-light__preview-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .series-light__popup-content {
+        height: 80vh;
+    }
+
+    .b-episode_media_container #video {
+        width: 100% !important;
+        height: 100vh !important;
+        max-height: 100vw;
+        min-height: 80vh;
+    }
+
+}
+
+/*Very small devices (phones)*/
+
+@media only screen and (max-width : 370px) {
+
+    .vjs-control-bar .vjs-settings-control {
+        right: 6px !important;
+    }
+
+    .vjs-fullscreen-control {
+        right: 50px !important;
+    }
+
+    .vjs-play-control {
+        left: 175px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

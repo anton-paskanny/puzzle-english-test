@@ -1,0 +1,97 @@
+
+
+.arrow-dropdown-menu {
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.arrow-dropdown-menu__target {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.arrow-dropdown-menu_va_m {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.arrow-dropdown-menu__icon {
+    width: 12px;
+    height: 6px;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(/templates/svg/icons/vteacher/arrow-dropdown-menu__icon.svg) 50% 50% no-repeat;
+    cursor: pointer;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    margin-left: 5px;
+}
+
+.arrow-dropdown-menu.is-open .arrow-dropdown-menu__icon {
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+.arrow-dropdown-menu__container {
+    display: none;
+    position: absolute;
+    right: 270px;
+    top: 59px;
+    bottom: auto;
+    width: 200px;
+    z-index:100;
+}
+
+.arrow-dropdown-menu__list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: left;
+    font-size: 13.98px;
+    background-color: #4c4c4c;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 100;
+}
+
+.arrow-dropdown-menu__list-item {
+    margin: 0;
+    border-bottom: 1px solid #5e5e5d;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.arrow-dropdown-menu__list-item a {
+    padding: 13px 30px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+}
+
+.arrow-dropdown-menu__list-item a:hover {
+    color: #00a7e6;
+}
+
+.arrow-dropdown-menu__list-item:last-child {
+    border-bottom: none;
+}

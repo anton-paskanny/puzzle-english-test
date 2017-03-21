@@ -1,0 +1,94 @@
+
+.whats-new__popup-header {
+    padding: 30px 10px;
+    background-color: #f4f4f4;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.puzzle_ta_center.whats-new__popup-header img {
+    max-height: 130px;
+}
+
+.whats-new__popup .popup-style-4 {
+    width: 540px;
+    padding: 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.whats-new__popup .popup-style-4 .close {
+    right: -40px;
+    top: -30px;
+}
+
+.whats-new__popup-content {
+    padding: 30px;
+}
+
+.whats-new__ribbon {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.whats-new__ribbon .puzzle-text {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: absolute;
+    left: 5px;
+    top: 24px;
+    transform: rotate(-45deg);
+}
+
+.whats-new__carousel .puzzle-list {
+    overflow: hidden;
+    width: 10000px;
+}
+
+.whats-new__carousel {
+    overflow: hidden;
+}
+
+.whats-new__carousel li {
+    width: 540px;
+    float: left;
+}
+
+#whatsNew .m-prevPage-arrow, #whatsNew .m-nextPage-arrow {
+    top: 42%;
+}
+
+#whatsNew .pages {
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+#whatsNew .pages li {
+    background: #626262;
+}
+
+#whatsNew .pages li.active {
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

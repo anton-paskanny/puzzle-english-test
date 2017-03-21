@@ -1,0 +1,45 @@
+.teacher-banner-footer {
+    display: block;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 23px 21px;
+    background: #0560a0 url(/wp-content/themes/english/assets/pe/img/prices_color_bg.png) 0 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    height: 100px;
+}
+
+.teacher-banner-footer:hover {
+    color: #fff !important;
+}
+
+.teacher-banner-footer .vteacher__header__logo__icon {
+    margin-right: 5px;
+}
+
+.teacher-banner-footer .puzzle-button {
+    float: right;
+}
+
+body.home .teacher-banner-footer {
+    display: none !important;
+}
+
+@media only screen and (max-width : 767px) {
+
+    .teacher-banner-footer .puzzle-text_ff_museo.puzzle-text_fz_24.puzzle_va_middle {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .teacher-banner-footer {
+        text-align: center;
+        height: auto;
+    }
+}

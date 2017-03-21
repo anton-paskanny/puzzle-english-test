@@ -1,0 +1,133 @@
+.test-progress {
+    position: relative;
+    width: 100%;
+    background-color: #d5e1b3;
+    height: 13px;
+    border-radius: 8px;
+}
+
+.test-progress_style_white {
+    background-color: #fff;
+}
+
+.test-progress_teacher-levels {
+    background-color: #e1ebe9;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.teacher-level_blue .test-progress__exam-success {
+    background-color: #4ec5f7;
+}
+
+.teacher-level_green .test-progress__exam-success {
+    background-color: #7eb97c;
+}
+
+.teacher-level_yellow .test-progress__exam-success {
+    background-color: #f3bb49;
+}
+
+.teacher-level_orange .test-progress__exam-success {
+    background-color: #ee7e11;
+}
+
+.teacher-level_red .test-progress__exam-success {
+    background-color: #dd5931;
+}
+
+.test-progress__item {
+    height: 13px;
+    border-right: 2px solid #fff;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.test-progress__item_success {
+    background-color: #63c162;
+}
+
+.test-progress__item_fail {
+    background-color: #e54e27;
+}
+
+.test-progress__item:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+}
+
+.test-progress__item:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 2px solid #fff;
+}
+
+.teacher-second__train-header + .test-progress {
+    margin-bottom: 20px;
+}
+
+.teacher-second__train-header + .test-progress_exam {
+    margin-bottom: 40px;
+}
+
+.test-progress__exam-success {
+    background-color: #63c162;
+    height: 13px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    float: left;
+    position: relative;
+}
+
+.test-progress__exam-fail {
+    background-color: #e54e27;
+    height: 13px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    float: right;
+}
+
+.test-progress__exam-level {
+    position: absolute;
+    right: 113px;
+    font-size: 12px;
+    top: 23px;
+}
+
+.test-progress__exam-level::before {
+    content: '';
+    position: absolute;
+    top: -27px;
+    left: 0px;
+    height: 21px;
+    width: 2px;
+    background-color: #333;
+}
+
+.test-progress__slider {
+    width: 36px;
+    height: 36px;
+    line-height: 35px;
+    position: absolute;
+    right: -18px;
+    top: 24px;
+    color: #505050;
+}
+
+.test-progress__slider::before {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -5px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 11px 5px;
+    border-color: transparent transparent #e1ebe9 transparent;
+}

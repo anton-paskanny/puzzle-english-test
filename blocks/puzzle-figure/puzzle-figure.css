@@ -1,0 +1,77 @@
+
+.puzzle-figure__wrapper {
+    margin:5px 15px 5px 20px;
+}
+
+.puzzle-figure__wrapper__success {
+    background:url('/wp-content/plugins/pe-teacher/res/level2/puzzle-string-success-small.png') no-repeat 0px 12px;
+    padding:0 15px 0 30px !important;
+    display:inline-block;
+    min-height:41px;
+    line-height:41px;
+}
+
+
+.puzzles_source .puzzle-figure__wrapper {
+     margin-right: 5px;
+}
+
+.puzzle-figure {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    height: 55px;
+    min-width: 60px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 11px 20px 11px 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.puzzle-figure:last-child {
+    margin-right: 0;
+}
+
+.puzzle-figure_bgc_54bb53-green {
+    background-color: #54bb53;
+}
+
+.puzzle-figure_bgc_54bb53-green .puzzle-text {
+    color: #fff;
+}
+
+.puzzle-figure_bgc_de4d4d-red {
+    background-color: #de4d4d;
+}
+
+.puzzle-figure_bgc_de4d4d-red .puzzle-text {
+    color: #fff;
+}
+
+/*puzzle-figure__ear*/
+
+.puzzle-figure__ear {
+    position: absolute;
+    z-index: 2;
+}
+
+.puzzle-figure__ear_back {
+    left: -11px;
+    top: 0;
+}
+
+.puzzle-figure__ear_front {
+    right: -11px;
+    top: 50%;
+    margin-top: -6.5px;
+}
+
+.puzzle-figure__ear_bgc_fff-white svg path {
+    fill: #fff;
+}
+
+.puzzle-figure__ear_bgc_54bb53-green svg path {
+    fill: #54bb53;
+}

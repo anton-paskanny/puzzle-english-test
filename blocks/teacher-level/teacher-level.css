@@ -1,0 +1,146 @@
+.teacher-level_gray-border {
+    border: 2px solid #e1ebe9;
+    border-radius: 8px;
+}
+
+.teacher-level_gray-border .teacher-level__header {
+    margin: -2px -2px 0 -2px;
+}
+
+.teacher-level_blue .teacher-level__header {
+    background-color: #4ec5f7;
+}
+
+.teacher-level_grey .teacher-level__header {
+    background-color: #e1ebe9;
+}
+
+.teacher-level_green .teacher-level__header {
+    background-color: #7eb97c;
+}
+
+.teacher-level_yellow .teacher-level__header {
+    background-color: #f3bb49;
+}
+
+.teacher-level_orange .teacher-level__header {
+    background-color: #ee7e11;
+}
+
+.teacher-level_red .teacher-level__header {
+    background-color: #dd5931;
+}
+
+.teacher-level_wrapper {
+    padding-top: 30px;
+}
+
+.teacher-level__title {
+    margin-bottom: 50px;
+}
+
+.teacher-level {
+    margin-bottom: 30px;
+}
+
+.teacher-level__header {
+    padding: 20px 17px 3px 17px;
+    border-radius: 8px;
+}
+
+.teacher-level__number {
+    width: 35px;
+    height: 35px;
+    line-height: 36px;
+    margin-right: 20px;
+}
+
+.teacher-level_blue .teacher-level__number {
+    color: #4ec5f7;
+}
+
+.teacher-level_green .teacher-level__number {
+    color: #7eb97c;
+}
+
+.teacher-level_yellow .teacher-level__number {
+    color: #f3bb49;
+}
+
+.teacher-level_orange .teacher-level__number {
+    color: #ee7e11;
+}
+
+.teacher-level_red .teacher-level__number {
+    color: #dd5931;
+}
+
+.teacher-level__info-item {
+    margin-right: 25px;
+}
+
+.teacher-level__info-item:last-of-type {
+    margin-right: 0;
+}
+
+.teacher-level__info-item > i {
+    margin-right: 7px;
+}
+
+.teacher-level__header-arrow {
+    margin-left: 50px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.is-up .teacher-level__header-arrow {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.teacher-level__content {
+    padding: 34px 10px 30px 10px;
+}
+
+.teacher-level__content-complete-item {
+    width: 49%;
+    padding: 20px 0;
+}
+
+.teacher-level__content-complete-item:first-child {
+    border-right: 1px dashed #e1ebe9;
+}
+
+.test-progress + .teacher-level__content-complete {
+    margin-top: 80px;
+}
+
+.teacher-level__content-complete + .puzzle-text_ta_center {
+    margin-top: 30px;
+}
+
+.teacher-level__header.puzzle-slide-down_js {
+    cursor: pointer;
+}
+
+@media only screen and (max-width : 767px) {
+
+    .teacher-level__info-item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-right: 0;
+    }
+
+    .teacher-level__header-arrow {
+        margin: 0 auto;
+        margin-top: 10px;
+        display: block;
+    }
+
+}

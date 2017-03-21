@@ -1,0 +1,173 @@
+.vitamin-all-list {
+    margin-top: 25px;
+}
+
+.vitamin-all-list__item {
+    display: inline-block;
+    padding: 16px 20px 0;
+    text-decoration: none;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.vitamin-all-list__item:hover .vitamin-all-list__text {
+    color: #0085be;
+}
+
+.vitamin-all-list__item_blocked {
+    cursor: default;
+}
+
+.vitamin-all-list__item_blocked .vitamin-all-list__text {
+    color: #2d2d2d;
+}
+
+.vitamin-all-list__item_blocked:hover .vitamin-all-list__text {
+    color: #2d2d2d;
+}
+
+.vitamin-all-list__justify {
+    text-align: justify;
+}
+
+.vitamin-all-list__justify::after {
+    display: inline-block;
+    content: '';
+    width: 100%;
+}
+
+.vitamin-all-list__left,
+.vitamin-all-list__right {
+    text-align: left;
+}
+
+.vitamin-all-list__left {
+    width: 90%;
+}
+
+.vitamin-all-list__text {
+    color: #0a96d1;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.vitamin-all-list__date {
+    color: #717171;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 767px) {
+    .vitamin-all-list__date {
+        margin-bottom: 10px;
+    }
+}
+
+.vitamin-all-list_va_middle {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.vitamin-all-list__item-left {
+    color: #333;
+}
+
+.vitamin-full-list__item {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.vitamin-full-list__item > .row {
+    position: relative;
+    z-index: 2;
+}
+
+.vitamin-full-list__item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 25%;
+    background: #f4f4f4;
+    z-index: 1;
+}
+
+.vitamin-full-list__item::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 75%;
+    background: #f8f8f8;
+    z-index: 1;
+}
+
+.vitamin-all-list__more {
+    font-size: 20px !important;
+}
+
+.vitamin-all-list__more span {
+    color: #0a96d1 !important;
+    margin-left: 5px;
+}
+
+.vitamin-all-list__more svg path {
+    fill: #0a96d1;
+}
+
+/* Small devices (tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .vitamin-full-list__item::before {
+        width: 33%;
+    }
+
+    .vitamin-full-list__item::after {
+        width: 67%;
+    }
+
+}
+
+/*Extra small devices (phones)*/
+
+@media only screen and (max-width : 767px) {
+
+    .vitamin-full-list__item::before {
+        width: 16%;
+    }
+
+    .vitamin-full-list__item::after {
+        width: 84%;
+    }
+
+    .vitamin-all-list__left {
+        width: 70%;
+    }
+
+    .vitamin-all-list__item-left .puzzle_va_middle.puzzle-text_fz_16.puzzle-text_lh_1-5 {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

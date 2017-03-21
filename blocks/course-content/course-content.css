@@ -1,0 +1,70 @@
+.course-content__wrapper {
+    padding: 40px 0;
+}
+
+.course-content {
+    border-bottom: 4px solid #f6f6f6;
+    padding-bottom: 20px;
+}
+
+.course-content__item {
+    width: 40%;
+    text-align: left;
+    margin-bottom:50px;
+}
+
+.course-content__item_align_center {
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .course-content__item {
+        width: 100%;
+    }
+}
+
+.puzzle-title + .course-content {
+    padding-top: 20px;
+}
+
+.course-content__pic {
+    margin-bottom: 45px;
+}
+
+.course-content__title {
+    margin-bottom: 35px;
+}
+
+.course-content__description {
+    margin-bottom: 35px;
+}
+
+.course-content__description::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #e77c6e;
+    margin-top: 30px;
+}
+
+.course-content__item_align_center .course-content__description::after {
+    margin: 30px auto 0;
+}
+
+.course-content__components {
+    color: #a0adad;
+}
+
+.course-content__components-item {
+    margin-bottom: 30px;
+}
+
+.course-content__components-item:last-child {
+    margin-bottom: 0;
+}
+
+.course-content__components-item .puzzle-icon {
+    margin-right: 15px;
+}
+

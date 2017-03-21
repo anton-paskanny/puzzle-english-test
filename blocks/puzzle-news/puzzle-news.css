@@ -1,0 +1,315 @@
+.puzzle-news__item-title {
+    font-size: 38px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.puzzle-news__item-date {
+    font-size: 16px;
+    color: #717171;
+    margin-bottom: 30px;
+}
+
+.puzzle-news__item-players-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 4px 20px;
+    background-color: #edf4fa;
+    margin: 20px 0 10px -26px;
+}
+
+.puzzle-news__item-players {
+    margin-bottom: 45px;
+}
+
+.puzzle-news__item-player {
+    margin-bottom: 19px;
+}
+
+.puzzle-news__item-player-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.puzzle-news__item-text {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.puzzle-news__item-player-role {
+    font-size: 14px;
+}
+
+.puzzle-news__list-item-pic {
+    width: 270px;
+    height: 200px;
+    max-width: 100%;
+}
+
+.puzzle-news__list-item-pic img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.puzzle-news__list-item {
+    background-color: #f8f8f7;
+    color: #333;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.puzzle-news__list-item-category {
+    margin-top: 25px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.puzzle-news__list-item-category a:link {
+    color: #333;
+    text-decoration: none;
+}
+
+.puzzle-news__list-item-category a:hover {
+    text-decoration: underline;
+}
+
+.puzzle-news__list-item-title {
+    margin-top: 15px;
+    padding-right: 100px;
+}
+
+.puzzle-news__list-item-title a {
+    font-size: 26px;
+    text-decoration: none;
+    color: #0a96d1;
+}
+
+.puzzle-news__list-item-info {
+    margin-top: 7px;
+}
+
+.puzzle-news__list-item-date {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #717171;
+    margin-right: 5px;
+}
+
+.puzzle-news__list-item-comments {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #d5e4f2;
+    padding: 2px 7px;
+    position: relative;
+    text-decoration: none;
+    color: #333;
+}
+
+.puzzle-news__list-item-comments::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 0;
+    border-color: #d5e4f2 transparent transparent transparent;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+
+.puzzle-news__list-item-text {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 1.5;
+    padding-right: 90px;
+}
+
+.puzzle-news__list_blog .puzzle-news__list-item {
+    padding-left: 40px;
+}
+
+.puzzle-news__list_blog .puzzle-news__list-item-text img.alignleft {
+    float: left;
+    padding-right: 20px;
+}
+
+.puzzle-news__list_blog .puzzle-news__list-item-text img.alignright {
+    float: right;
+    padding-left: 20px;
+}
+
+.puzzle-news__item_blog .puzzle-news__item-text img.alignleft {
+    float: left;
+    padding-right: 20px;
+}
+
+.puzzle-news__item_blog .puzzle-news__item-text img.alignright {
+    float: right;
+    padding-right: 20px;
+}
+
+.puzzle-news__more-btn .puzzle-icon svg path {
+    fill: #0a96d1;
+}
+
+.puzzle-news__more-btn {
+    font-size: 20px;
+    color: #0a96d1 !important;
+}
+
+.puzzle-news__more-btn:hover .puzzle-icon svg path {
+    fill: #333;
+}
+
+.puzzle-news__item-audio {
+    height: 50px;   
+}
+
+.puzzle-news__item-audio-play {
+    width: 81%;
+    height: 50px;
+    background-color: #fafafa;
+    border-radius: 6px 0 0 6px;
+    float: left;
+    border: 1px solid #dedede;
+    border-right: none;
+}
+
+.puzzle-news__item-audio-play audio {
+    width: 100%;
+    height: 40px;
+}
+
+.puzzle-news__item-audio-play audio::-internal-media-controls-download-button {
+    display: none;
+}
+
+.puzzle-news__item-audio-play audio::-webkit-media-controls-enclosure {
+    overflow: hidden;
+}
+
+.puzzle-news__item-audio-btn {
+    width: calc(19% - 2px);
+    height: 52px;
+    min-width: 0;
+    border-radius: 0 6px 6px 0 !important;
+    float: left;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    padding: 13px 14px 12px;
+}
+
+/* Small devices (tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .puzzle-news__list-item {
+        padding-bottom: 20px;
+    }
+
+    .podcasts-index_style_blue {
+        background-position: 30% 0;
+    }
+
+    .puzzle-news__list-item-pic {
+        width: 172px;
+        height: 127px;
+        padding-left: 20px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .puzzle-news__list-item-text,
+    .puzzle-news__list-item-title {
+        padding-right: 20px;
+    }
+
+    .puzzle-news__item-head-pic {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .puzzle-news__item-player {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 30px;
+    }
+
+    .podcasts-button {
+        margin-bottom: 0 !important;
+    }
+
+    .puzzle-news__item-audio-btn-text {
+        font-size: 12px;
+    }
+
+}
+
+/*Extra small devices (phones)*/
+
+@media only screen and (max-width : 767px) {
+
+    .puzzle-news__item-audio-play {
+        width: 100%;
+        border: 1px solid #dedede;
+        border-radius: 6px;
+    }
+
+    .puzzle-news__item-audio-btn {
+        display: none !important;
+    }
+
+    .puzzle-news__list-item-text,
+    .puzzle-news__list-item-title {
+        padding-right: 20px;
+    }
+
+    .podcasts-index_style_blue {
+        background-position: 30% 0;
+    }
+
+    .puzzle-news__item-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .puzzle-news__item-head-pic {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .puzzle-news__item-players-title {
+        margin-left: 0;
+    }
+
+    .puzzle-news__item-player {
+        display: inline-block;
+        vertical-align: middle;
+        width: 49%;
+    }
+
+    .puzzle-news__item-text {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

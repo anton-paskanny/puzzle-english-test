@@ -1,0 +1,31 @@
+.puzzle-tag_style_blue {
+    background-color: #1caaec;
+    color: #fff;
+}
+
+.puzzle-tag_size_m {
+    font-size: 14px;
+    padding: 6px 15px 7px;
+}
+
+.puzzle-tag__close {
+    padding: 2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.puzzle-tag_style_blue .puzzle-tag__close svg path {
+    fill: #fff;
+}
+
+.puzzle-tag_size_m .puzzle-tag__close {
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+}
+
+.puzzle-tag_size_m .puzzle-tag__close i {
+    width: 9px;
+    height: 9px;
+}

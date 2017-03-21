@@ -1,0 +1,313 @@
+
+
+.puzzle-text_fz_9 {
+    font-size: 9px !important;
+}
+
+.puzzle-text_fz_10 {
+    font-size: 10px !important;
+}
+
+.puzzle-text_fz_11 {
+    font-size: 11px;
+}
+
+.puzzle-text_fz_12 {
+    font-size: 12px;
+}
+
+.puzzle-text_fz_14 {
+    font-size: 14px !important;
+}
+
+.puzzle-text_fz_16 {
+    font-size: 16px !important;
+}
+
+.puzzle-text_fz_18 {
+    font-size: 18px !important;
+}
+
+.puzzle-text_fz_20 {
+    font-size: 20px !important;
+}
+
+.puzzle-text_fz_21 {
+    font-size: 21px;
+}
+
+.puzzle-text_fz_22 {
+    font-size: 22px;
+}
+
+.puzzle-text_fz_24 {
+    font-size: 24px !important;
+}
+
+.puzzle-text_fz_26 {
+    font-size: 26px;
+}
+
+.puzzle-text_fz_30 {
+    font-size: 30px !important;
+}
+
+.puzzle-text_fz_32 {
+    font-size: 32px !important;
+}
+
+.puzzle-text_fz_36 {
+    font-size: 36px;
+}
+
+.puzzle-text_fz_38 {
+    font-size: 38px;
+}
+
+.puzzle-text_fz_42 {
+    font-size: 42px;
+}
+
+.puzzle-text_fz_48 {
+    font-size: 48px;
+}
+
+.puzzle-text_fz_50 {
+    font-size: 50px;
+}
+
+.puzzle-text_fz_58 {
+    font-size: 58px;
+}
+
+.puzzle-text_fz_60 {
+    font-size: 60px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .puzzle-text_fz_18 {
+        font-size: 14px !important;
+    }
+    .puzzle-text_fz_24 {
+        font-size: 18px !important;
+    }
+
+    .puzzle-text_fz_30 {
+        font-size: 20px !important;
+    }
+
+    .puzzle-text_fz_36 {
+        font-size: 26px !important;
+    }
+
+    .puzzle-text_fz_42 {
+        font-size: 26px !important;
+    }
+
+    .puzzle-text_fz_38 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .puzzle-text_fz_30 {
+        font-size: 26px !important;
+    }
+}
+
+.puzzle-text_ta_center {
+    text-align: center;
+}
+
+.puzzle-text_fl_left {
+    float: left;
+}
+
+.puzzle-text_fw_bold {
+    font-weight: bold;
+}
+
+.puzzle-text_fw_normal {
+    font-weight: normal !important;
+}
+
+.puzzle-text_fw_300 {
+    font-weight: 300;
+}
+
+.puzzle-text_fw_500 {
+    font-weight: 500;
+}
+
+.puzzle-text_c_d0021b-red {
+    color: #d0021b;
+}
+
+.puzzle-text_c_019edf-blue {
+    color: #019edf;
+}
+
+.puzzle-text_c_5c5c5b-darkgray {
+    color: #5c5c5b;
+}
+
+.puzzle-text_c_333-darkgray {
+    color: #333;
+}
+
+.puzzle-text_c_62c162-green {
+    color: #62c162;
+}
+
+.puzzle-text_c_6c6c6c-gray {
+    color: #6c6c6c;
+}
+
+.puzzle-text_c_3c3a3a-black {
+    color: #3c3a3a;
+}
+
+.puzzle-text_c_000-black {
+    color: #000 !important;
+}
+
+.puzzle-text_c_757471-gray {
+    color: #757471;
+}
+
+.puzzle-text_c_858585-lightgray {
+    color: #858585;
+}
+
+.puzzle-text_c_9e9e9e-lightgray {
+    color: #9e9e9e !important;
+}
+
+.puzzle-text_c_0091d7-blue {
+    color: #0091d7;
+}
+
+.puzzle-text_c_7abb78_green {
+    color: #7abb78;
+}
+
+.puzzle-text_c_dc5750_red {
+    color: #dc5750;
+}
+
+.puzzle-text_c_fff-white {
+    color: #fff !important;
+}
+
+.puzzle-text_color_gray {
+    color: #7d7d7d !important;
+}
+
+.puzzle-text_c_bd9b77-brown {
+    color: #bd9b77;
+}
+
+.puzzle-text_style_white {
+    color: #fff !important;
+}
+
+.puzzle-text_style_green {
+    color: #7bc07a;
+}
+
+.puzzle-text_style_gray {
+    color: #b1b1b1;
+}
+
+.puzzle-text_style_red {
+    color: #e02712;
+}
+
+.puzzle-text_style_light-gray {
+    color: #a5a5a5;
+}
+
+.puzzle-text_ff_segoe-bold {
+    font-family: segoeUIbold, segoeUI, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.puzzle-text_ff_segoe {
+    font-family: segoeUI, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.puzzle-text_ff_segoe-light {
+    font-family: segoeUILight, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.puzzle-text_ff_arial {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.puzzle-text_ff_georgia {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.puzzle-text_ff_museo {
+    font-family: MuseoCyrl-500, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.puzzle-text_ff_roboto {
+    font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.puzzle-text_lh_0 {
+    line-height: 0;
+}
+
+.puzzle-text_lh_1 {
+    line-height: 1;
+}
+
+.puzzle-text_lh_1-2 {
+    line-height: 1.2;
+}
+
+.puzzle-text_lh_1-4 {
+    line-height: 1.4;
+}
+
+.puzzle-text_lh_1-5 {
+    line-height: 1.5;
+}
+
+.puzzle-text_lh_1-7 {
+    line-height: 1.7;
+}
+
+.puzzle-text_lh_1-8 {
+    line-height: 1.8;
+}
+
+.puzzle-text_lh_2 {
+    line-height: 2;
+}
+
+.puzzle-text_lh_36 {
+    line-height: 36px;
+}
+
+.puzzle-text_lh_24 {
+    line-height: 24px;
+}
+
+.puzzle-text_lh_30 {
+    line-height: 30px;
+}
+
+.puzzle-text_lh_55 {
+    line-height: 55px;
+}
+
+.opacity_0-5 {
+    opacity: 0.5;
+}
+
+.puzzle-button.opacity_0-5:hover {
+    opacity: 0.5 !important;
+}

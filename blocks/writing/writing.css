@@ -1,0 +1,148 @@
+
+.writing-header__back-link-arrow {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.writing-header__back-link-arrow svg path {
+  fill: #1da5de;
+}
+
+.writing-header__settings svg path {
+  fill: #0996d1;
+}
+
+.writing-list {
+    padding-bottom: 50px;
+}
+
+.writing-list__item {
+    padding: 30px 0;
+    border-bottom: 1px dashed #c7c7c7;
+}
+
+.writing-list__item:last-child {
+    border-bottom: none;
+}
+
+.writing-list__translates-text {
+    color: #19abeb;
+    border-bottom: 1px dashed;
+    cursor: pointer;
+}
+
+.writing-list__translates-num .puzzle-news__list-item-comments::after {
+    content: none;
+}
+
+.writing-header__levels-icon .b-slide_footer__level {
+  width: 55px;
+  height: 16px;
+}
+
+.writing-header__levels-icon .b-slide_footer__level_cell {
+  width: 5px;
+  height: 16px;
+  margin-left: 0;
+  border-radius: 2px;
+}
+
+.writing-header__levels-icon {
+    height: 16px;
+}
+
+.writing__repeat-words-add,
+.writing__repeat-words-play {
+  cursor: pointer;
+}
+
+.writing__repeat-words-add:hover .icon-dict-add__round,
+.writing__repeat-words-add.is-added .icon-dict-add__round,
+.writing__repeat-words-play.is-added .icon-dict-add__round,
+.writing__repeat-words-play:hover .icon-dict-add__round {
+  fill: #71b26f;
+}
+
+.writing__repeat-words-add:hover .icon-dict-add__icon,
+.writing__repeat-words-play.is-added .icon-dict-add__icon,
+.writing__repeat-words-add.is-added .icon-dict-add__icon,
+.writing__repeat-words-play:hover .icon-dict-add__icon {
+  fill: #fff;
+}
+
+.writing__repeat-word-phrase {
+  background-color: #e9f5fa;
+}
+
+.writing__repeat-word {
+  max-width: 77%;
+}
+
+.user-answer-box {
+    border: 1px solid black;
+}
+
+.correct {
+    background: #9af29a;
+}
+
+.wrong {
+    background: #ff7976;
+}
+
+.typing-box {
+    position: relative;
+    border: none;
+    padding: 0 15px 1px;
+    background: #f6f6f6;
+    color: #333;
+    font-size: 22px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-align: left;
+}
+
+.typing-box:focus {
+    background: #fff;
+    border: 2px solid #00a9ef;
+    padding: 4px 13px 5px 13px;
+}
+
+.typing-box:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.typing-box .word {
+    display: none;
+    height: 40px;
+    background: #cdde93;
+    padding: 0 5px;
+    margin: 7px;
+}
+
+.typing-box .word.typed {
+    background: #d8d6d6;
+    width: auto;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 6px 14px;
+    box-sizing: border-box;
+    color: #6B6B6B;
+    border-radius: 2px;
+}
+
+#typing-input {
+    border: 0;
+    height: 40px;
+    background: none;
+    padding: 0 5px;
+    font-size: 30px;
+    width: auto;
+    min-width: 10px;
+    margin: 7px 0 9px 0;
+}

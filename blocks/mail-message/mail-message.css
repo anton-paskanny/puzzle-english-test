@@ -1,0 +1,117 @@
+
+.mail-message__body {
+    padding: 30px 60px 10px;
+    background-color: #fff;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.mail-message__title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #d3684e;
+    margin-bottom: 40px;
+}
+
+.mail-message__text {
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.mail-message__text p img {
+    max-width: 100%;
+}
+
+.mail-message__text p {
+    margin-bottom: 20px;
+}
+
+.mail-message__footer {
+    max-width: 760px;
+    height: 515px;
+    background: url('/wp-content/themes/english/assets/images/mail-message-footer.png') 0 0 no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mail-message__footer-simple {
+    max-width: 760px;
+    height: 515px;
+    background: url('/wp-content/themes/english/assets/images/mail-message/mail-message-footer-simple.png') 0 0 no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mail-message__link:link {
+    color: #d3684e !important;
+}
+
+#mailMessageCarousel .puzzle-list {
+    overflow: hidden;
+    width: 10000px;
+}
+
+#mailMessageCarousel {
+    overflow: hidden;
+}
+
+#mailMessageCarousel li {
+    width: 616px;
+    float: left;
+    max-height: 1px;
+    -webkit-transition: all 600ms ease-in;
+    -o-transition: all 600ms ease-in;
+    transition: all 600ms ease-in;
+}
+
+#mailMessageCarousel li:first-child {
+    max-height: 10000px;
+}
+
+#mailMessageCarousel li.active {
+    max-height: 10000px;
+}
+
+.mail-message__carousel .controls {
+    width: 100%;
+    position: relative;
+}
+
+.mail-message__carousel .m-nextPage-arrow {
+    right: -110px;
+}
+
+.mail-message__carousel .m-prevPage-arrow {
+    left: -110px;
+}
+
+.mail-message__carousel .controls--blue .m-prevPage-arrow, .mail-message__carousel .controls--blue .m-nextPage-arrow {
+    background-position: 0 0 !important;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .mail-message__body {
+        max-width: 94.5%;
+    }
+
+    .mail-message__footer {
+        -webkit-background-size: 100%;
+        background-size: 100%;
+    }
+
+}
+
+/*Extra small devices (phones)*/
+
+@media only screen and (max-width : 767px) {
+
+    .mail-message__body {
+        padding: 30px 30px 10px;
+    }
+
+}

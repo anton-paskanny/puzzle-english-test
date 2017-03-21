@@ -1,0 +1,217 @@
+.mobile-landing {
+    font-family: SegoeUILight, sans-serif;
+}
+
+.mobile-landing .puzzle-button_blue {
+     padding: 9px 23px 5px;
+}
+
+.movie-mobile__screen {}
+
+.movie-mobile__header {
+    /*height: 361px;*/
+    background-image: linear-gradient(204deg, #1e4a7e, #2db3ff);
+    text-align: center;
+    color: #ffffff;
+    padding: 0 20px 32px;
+}
+
+.movie-mobile__logo {
+    padding: 18px 20px 16px;
+    border-bottom: 2px solid rgba(255,255,255,0.18);
+    margin: 0 -20px 19px;
+}
+
+.movie-mobile__logo img {
+    width: 204px;
+    height: 33px;
+}
+
+.movie-mobile__title {
+    font-size: 30px;
+    line-height: 1.17;
+    margin-bottom: 26px;
+    color: #ffffff;
+    padding: 0 20px;
+}
+
+.movie-mobile__subtitle {
+    font-size: 16px;
+    line-height: 1.44;
+    color: #ffffff;
+    margin-bottom: 31px;
+    padding: 0 20px;
+}
+
+
+
+.movie-services {
+    padding: 32px 21px;
+}
+
+.movie-services__item {
+    overflow: hidden;
+    margin-bottom: 36px;
+    color: #333;
+    font-size: 20px;
+    line-height: 21px;
+}
+
+.movie-services__item:last-child {
+    margin-bottom: 0;
+}
+
+.movie-services__icon {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 22px;
+}
+
+.movie-services__icon img {
+    width: inherit;
+    height: inherit;
+}
+
+.movie-services__text {
+    margin-top: 2px;
+    padding-left: 52px;
+}
+
+
+
+/*
+ * Carousel
+ */
+
+
+.movie-mobile__screen.mobile-landing__screen_carousel {
+    padding: 21px 0 11px;
+}
+
+.movie-mobile__screen .mobile-landing-carousel {
+    margin: 0;
+}
+
+.movie-mobile__screen .mobile-landing-carousel__item {
+    width: 280px;
+    margin: 0 20px;
+}
+
+.movie-mobile__screen .mobile-landing-carousel__item img {
+    width: 280px;
+}
+/* second carousel */
+
+.movie-mobile__screen .mobile-landing-carousel__item_2 {
+    width: 312px;
+    margin: 0;
+}
+
+.movie-mobile__screen .mobile-landing-carousel__item_2 img {
+    width: 312px;
+}
+
+
+
+/*
+ * How can I watch tv-series?
+ */
+
+
+.movie-mobile__watch-movie {}
+
+.movie-mobile__watch-movie__icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 39px;
+    height: 39px;
+    margin-right: 17px;
+}
+
+.movie-mobile__watch-movie__icon img {
+    width: inherit;
+    height: inherit;
+}
+
+.movie-mobile__watch-movie__text {
+    display: inline-block;
+    vertical-align: middle;
+    color: #00a9ef;
+}
+
+.movie-mobile__watch-movie__text:hover,
+
+.movie-mobile__watch-movie__text:active {
+    text-decoration: underline;
+}
+
+
+.movie-mobile__screen_background_darkblue {
+    background-color: #223243;
+    color: #00a9ef;
+}
+
+.movie-mobile__screen_background_darkblue .puzzle-link {
+    color: inherit;
+    padding: 22px 0;
+    display: block;
+    width: 100%;
+}
+
+
+.movie-mobile__screen_background_lightblue {
+    /*background-color: #2db3ff;*/
+    background-image: linear-gradient(186deg, rgb(39, 135, 201), rgb(41, 155, 225));
+    padding: 30px 0;
+}
+
+
+.b-modal {
+    max-width: 100%!important;
+}
+
+.b-modal iframe {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+/* Phone Portrait and Landscape */
+@media
+(min-device-width: 800px)
+and (max-device-width: 1280px) {
+
+}
+
+/* Tablet Portrait and Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+    .movie-services {
+        text-align: center;
+    }
+    .movie-services__item {
+        display: inline-block;
+        width: 49%;
+        text-align: left;
+        padding-left: 8%;
+        box-sizing: border-box;
+    }
+
+
+}
+
+/* Tablet Landscape */
+@media only screen
+and (min-device-width: 1200px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+    .movie-services {
+        margin: 0 10%;
+    }
+    .movie-services__item {
+        padding-left: 10%;
+    }
+
+}

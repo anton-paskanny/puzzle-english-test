@@ -1,0 +1,31 @@
+.round-box {
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 35px 30px 40px 30px;
+}
+
+a.round-box {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.round-box_style_beige {
+    background-color: #f9f5ea;
+}
+
+.round-box_style_beige.round-box_style_shadow {
+    box-shadow: 0 1px 1px 0 #dabd9d;
+    -webkit-box-shadow: 0 1px 1px 0 #dabd9d;
+}
+
+.round-box_style_white {
+    background-color: #fff;
+}
+
+.round-box_style_white.round-box_style_shadow {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+}

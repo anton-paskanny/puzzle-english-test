@@ -1,0 +1,38 @@
+.puzzle-list {
+    list-style-type: none;
+    margin: 0;
+    position: relative;
+}
+
+.puzzle-list_inline .puzzle-list__item {
+    display: inline-block;
+}
+
+.puzzle-list__item {
+    position: relative;
+}
+
+.puzzle-list_type_disk .puzzle-list__item {
+    padding-left: 30px;
+}
+
+.puzzle-list_type_disk .puzzle-list__item::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+}
+
+.puzzle-list_type_check .puzzle-list__item {
+    padding-left: 20px;
+}
+
+.puzzle-list_type_check .puzzle-list__item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 14px;
+    height: 11px;
+    background: url('check.svg') 0 0 no-repeat;
+    top: 2px;
+}
+

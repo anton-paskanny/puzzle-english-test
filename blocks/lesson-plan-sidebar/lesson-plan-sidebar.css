@@ -1,0 +1,317 @@
+.b-lesson-plan__wrapper {
+    position: relative;
+    z-index: 202;
+}
+
+/*
+ * Small calendar (right side)  ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+ */
+
+.b-lesson-plan_small {
+    position: absolute;
+    top: 170px;
+    right: 107%;
+
+    transition:         all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition:    all 1s ease-in-out;
+    -o-transition:      all 1s ease-in-out;
+}
+
+.b-lesson-plan_wrap {
+    width: 230px;
+    position: relative;
+    /*max-width: 220px;*/
+}
+
+/*
+ * Speech of a man
+ */
+
+.b-lesson-plan_small .b-lesson-plan__speech {
+    position: relative;
+    display: inline-block; *display: inline; *zoom: 1;
+    padding: 10px 13px;
+    margin: 0 76px 20px 1px;
+    border: 1px solid #cacaca;
+    -webkit-border-radius:  7px;
+    border-radius:          7px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #fff;
+    height: 71px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.b-lesson-plan_small .b-lesson-plan__speech p {
+    margin-bottom: 4px;
+}
+.b-lesson-plan_small .b-lesson-plan__speech:after,
+.b-lesson-plan_small .b-lesson-plan__speech:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border: 1px solid #cacaca;
+    background-color: #fff;
+}
+.b-lesson-plan_small .b-lesson-plan__speech:after {
+    left: 110%;
+    bottom: 15px;
+    width: 4px;
+    height: 4px;
+    -webkit-border-radius:  5px;
+    border-radius:          5px;
+}
+.b-lesson-plan_small .b-lesson-plan__speech:before {
+    left: 103%;
+    bottom: 3px;
+    width: 9px;
+    height: 9px;
+    -webkit-border-radius:  8px;
+    border-radius:          8px;
+}
+
+
+
+/*
+ * A man of a calendar
+ */
+
+.b-lesson-plan_small .b-lesson-plan__man {
+    position: absolute;
+    width: 98px;
+    height: 113px;
+    top: -17px;
+    left: 100%;
+    margin-left: -105px;
+}
+.b-lesson-plan_small .b-lesson-plan__man_body {
+    position: absolute;
+    left: 12px;
+    width: 86px;
+    height: 109px;
+    background: url('/wp-content/themes/english/assets/images/lesson-plan/harry-body.svg') no-repeat;
+    background-size: cover;
+}
+.b-lesson-plan_small .b-lesson-plan__man_hand {
+    position: absolute;
+    left: -1px;
+    bottom: 1px;
+    width: 19px;
+    height: 11px;
+    background: url('/wp-content/themes/english/assets/images/lesson-plan/harry-hand.svg') no-repeat;
+    background-size: cover;
+}
+
+.b-lesson-plan_small .b-calendar__header_bind {
+    position: absolute;
+    top: -11px;
+    width: 78%;
+    height: 22px;
+    margin: 0 11%;
+    background: url('/wp-content/themes/english/assets/images/lesson-plan/bind_space_small.png') repeat-x 0 0;
+    -webkit-background-size: contain;
+    background-size:         contain;
+}
+
+
+/*
+ * Header of a calendar
+ */
+
+.b-lesson-plan_small .b-calendar__header {
+    width: auto;
+    height: 62px;
+    padding-top: 14px;
+    border-bottom: 2px solid rgba(0,79,134,1);
+    color: #fefefe;
+    text-align: center;
+    background-color: #004f86;
+    background-image: linear-gradient(to bottom, #0674b0, #0460a0), linear-gradient(#0569a7, #0569a7);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.b-lesson-plan_small .b-calendar__header_wrap {
+    height: inherit;
+}
+.b-lesson-plan_small .b-calendar__header_wrap:after {
+    content: "";
+    display: table;
+    width: 100%;
+    clear: both;
+    height: 0;
+}
+
+
+.b-lesson-plan_small .b-calendar__header_middle {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 26px;
+}
+.b-lesson-plan_small .b-calendar__header_right {
+    float: right;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 45px 20px 0 0;
+}
+
+
+.b-lesson-plan_small .b-calendar__unit {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+
+.b-lesson-plan_small .b-calendar__nav {
+    width: auto;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #fff;
+}
+.b-lesson-plan_small .b-calendar__nav a {
+    color: inherit;
+}
+.b-lesson-plan_small .b-calendar__nav a[rel="curr-day"] {
+    vertical-align: -3px;
+    color: #fff;
+}
+
+
+/*
+ * Body of a calendar
+ */
+
+.b-lesson-plan_small .b-calendar__body {
+    font-size: 12px;
+    overflow: hidden;
+    background-color: #feffe3;
+    -webkit-box-shadow: 0 5px 0 0 rgba(226,227,184, 1), 0 15px 0 -5px rgba(202,204,144, 1);
+    box-shadow:         0 5px 0 0 rgba(226,227,184, 1), 0 15px 0 -5px rgba(202,204,144, 1);
+}
+
+.b-lesson-plan_small .b-calendar__body_style_success {
+    padding: 20px 10px 0;
+    text-align: center;
+}
+
+.b-lesson-plan_small .b-calendar__body_style_info {
+    padding: 20px 10px 25px;
+    text-align: center;
+}
+
+.b-lesson-plan_small .b-calendar__body .english-button_size_m {
+    padding: 10px 14px 12px !important;
+}
+
+.b-lesson-plan_small .b-calendar__col {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.b-lesson-plan_small .b-calendar__item:last-child .b-calendar__col {
+    border-bottom: 0;
+}
+
+.b-lesson-plan_small .b-calendar__icon {
+    width: 9.5%;
+    padding-right: 4%;
+    display: inline-block;
+    vertical-align: middle;
+}
+@-moz-document url-prefix()
+{
+    .b-lesson-plan_small .b-calendar__icon {
+        width: 5%;
+    }
+}
+
+.b-lesson-plan_small .b-calendar__name {
+    width: 84%;
+    padding-right: 0.5%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.b-icon {
+    display: inline-block; *display: inline; *zoom: 1;
+    cursor: pointer;
+}
+
+.b-lesson-plan_small .b-icon_circle {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 15px;
+    background-color: #e2e3b8;
+}
+
+.b-lesson-plan_small .b-icon_checkup {
+    background-image: url('/wp-content/themes/english/assets/images/vocab-test/vocab-test-check.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.b-calendar__item-footer {
+    padding-top: 18px;
+    padding-bottom: 17px;
+}
+
+.b-calendar__item {
+    padding: 0 10px;
+    line-height: 1.5;
+}
+
+.b-calendar__item-content:nth-child(n+2) {
+    border-top: 3px dashed #f4f1d3;
+}
+
+.b-calendar__item-content a {
+    text-decoration: underline;
+}
+
+.b-calendar__item-content a:hover {
+    text-decoration: none;
+}
+
+.b-calendar__item_simple {
+    border-bottom: 3px solid #f2f4d1;
+}
+
+.b-calendar__item_replace {
+    color: #fff;
+    background-color: #1da5de;
+}
+
+.b-calendar__close-icon {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.b-calendar__close-icon svg path {
+    fill: #013a62;
+    stroke: #013a62;
+}
+
+
+
+/*
+ * Media queries
+ */
+
+
+@media only screen
+and (max-width : 1520px) {
+    .b-lesson-plan_wrap {
+        display: none;
+    }
+}

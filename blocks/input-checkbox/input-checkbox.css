@@ -1,0 +1,44 @@
+.b-input_hidden {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    width: 20px;
+    height: 20px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+.b-checkbox {
+    position: relative;
+    display: block;
+    margin-bottom: 16px;
+}
+.b-checkbox__icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #c7c7c7;
+    margin-right: 14px;
+    vertical-align: -7px;
+    border-radius: 3px;
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:         border-box;
+}
+input:checked+.b-checkbox__icon {
+    background: url('/templates/svg/icons/check-blue.svg') no-repeat center;
+}
+.b-checkbox__label {
+    font-family: 'Segoe UI', Ubuntu, Tahoma, Geneva;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+.b-checkbox__label a {
+    color: inherit;
+    text-decoration: underline;
+}
+.b-checkbox__label a:hover {
+    color: #517188;
+}

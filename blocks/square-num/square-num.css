@@ -1,0 +1,36 @@
+.square-num {
+    font-family: MuseoCyrl-500, Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 9px 3px 9px;
+    border-radius: 4px;
+    border: solid 2px #1d2929;
+    line-height: 1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.square-num_mini {
+    font-size: 12px;
+    border-width: 1px;
+    padding: 3px 4px 1px;
+    width: 20px;
+}
+
+.square-num_title {
+    font-size: 24px;
+    padding: 6px 11px 4px 11px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.square-num_size_xs {
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 2px 0 0 0;
+    font-weight: bold;
+}

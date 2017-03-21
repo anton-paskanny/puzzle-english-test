@@ -1,0 +1,272 @@
+
+.vteacher__test-info__close {
+    position: absolute;
+    cursor: pointer;
+    top: -3.73vh;
+    right: -5.03vh;
+    z-index: 50;
+}
+
+.vteacher__test-info__close svg {
+    width: 3.91vh;
+    height: 3.91vh;
+}
+
+
+.vteacher__sale-popup {
+    background-color: rgba(0,0,0, .4);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: auto;
+}
+
+.vteacher__sale-popup__content {
+    width: 70.83vh;
+    height: 61.59vh;
+    border-radius: 0.65vh;
+    padding: 3.26vh;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 13.02vh auto 6.51vh;
+    position: relative;
+}
+
+.vteacher__sale-popup__yellow {
+    background: #ffdb30 url(/wp-content/themes/english/assets/images/sale-popup/yellow/vteacher_sale-popup_yellow-bg.jpg) no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.vteacher__sale-popup__green {
+    background: #ffdb30 url(/wp-content/themes/english/assets/images/sale-popup/green/vteacher_sale-popup_green-bg.jpg) no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.vteacher__sale-popup__green .vteacher__sale-popup__title {
+    background: url(/wp-content/themes/english/assets/images/sale-popup/green/vteacher_sale-popup_green-title.png) no-repeat;
+    text-shadow: 0vh 0.26vh 0.13vh rgba(160, 44, 18, 0.22);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.vteacher__sale-popup__green .vteacher__sale-popup__info__title {
+    color: #f6ff8e;
+}
+
+.vteacher__sale-popup__green .vteacher__sale-popup__info__list__item span {
+    color: #f6ff8e;
+}
+
+.vteacher__sale-popup__green .vteacher__sale-popup__price {
+    color: #f6ff8e;
+}
+
+.vteacher__sale-popup__green .vteacher__sale-popup__buttons__buy-btn {
+    background-color: #faa403;
+    box-shadow: inset 0vh -0.39vh 0vh 0vh #dc6702;
+}
+
+.vteacher__sale-popup__blue {
+    background: #ffdb30 url(/wp-content/themes/english/assets/images/sale-popup/blue/vteacher_sale-popup_blue-bg.jpg) no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.vteacher__sale-popup__blue .vteacher__sale-popup__title {
+    background: url(/wp-content/themes/english/assets/images/sale-popup/blue/vteacher_sale-popup_blue-title.png) no-repeat;
+    text-shadow: 0vh 0.26vh 0.13vh rgba(160, 44, 18, 0.24);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.vteacher__sale-popup__blue .vteacher__sale-popup__info__title {
+    color: #fff;
+}
+
+.vteacher__sale-popup__blue .vteacher__sale-popup__info__list__item span {
+    color: #fff;
+}
+
+.vteacher__sale-popup__blue .vteacher__sale-popup__price {
+    color: #fff;
+}
+
+.vteacher__sale-popup__blue .vteacher__sale-popup__buttons__buy-btn {
+    background-color: #83bd43;
+    box-shadow: inset 0vh -0.39vh 0vh 0vh #4f8836;
+}
+
+.vteacher__sale-popup__blue .vteacher__sale-popup__buttons__continue-btn {
+    background-color: #f9a403;
+    box-shadow: inset 0vh -0.39vh 0vh 0vh #dc6702;
+}
+
+.vteacher__sale-popup__orange {
+    background: #ffdb30 url(/wp-content/themes/english/assets/images/sale-popup/orange/vteacher_sale-popup_orange-bg.jpg) no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.vteacher__sale-popup__orange .vteacher__sale-popup__title {
+    background: url(/wp-content/themes/english/assets/images/sale-popup/orange/vteacher_sale-popup_orange-title.png) no-repeat;
+    text-shadow: 0vh 0.26vh 0.13vh rgba(160, 44, 18, 0.24);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.vteacher__sale-popup__orange .vteacher__sale-popup__info__title {
+    color: #fff;
+}
+
+.vteacher__sale-popup__orange .vteacher__sale-popup__info__list__item span {
+    color: #fff;
+}
+
+.vteacher__sale-popup__orange .vteacher__sale-popup__price {
+    color: #fff;
+}
+
+.vteacher__sale-popup__orange .vteacher__sale-popup__buttons__buy-btn {
+    background-color: #83bd43;
+    box-shadow: inset 0vh -0.39vh 0vh 0vh #4f8836;
+}
+
+.vteacher__sale-popup__orange .vteacher__sale-popup__buttons__continue-btn {
+    background-color: #1ba6de;
+    box-shadow: inset 0vh -0.39vh 0vh 0vh #0072b3;
+}
+
+.vteacher__sale-popup__title {
+    width: 47.53vh;
+    height: 16.02vh;
+    background: url(/wp-content/themes/english/assets/images/sale-popup/yellow/vteacher_sale-popup_yellow-title.png) no-repeat;
+    font-family: MuseoCyrl-500, sans-serif;
+    font-size: 3.91vh;
+    color: #fff;
+    text-shadow: 0vh 0.26vh 0.13vh rgba(160, 44, 18, 0.57);
+    padding: 1.56vh 0 0 6.51vh;
+    position: relative;
+    left: -6.12vh;
+    top: -1.04vh;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.vteacher__sale-popup__info {
+    position: relative;
+    top: -3.26vh;
+}
+
+.vteacher__sale-popup__info__title {
+    margin-top:2.5vh;
+    font-family: SegoeUIBold, Verdana, Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-size: 2.34vh;
+}
+
+.vteacher__sale-popup__info__list {
+    font-size: 1.95vh;
+    font-family: SegoeUI, Verdana, Helvetica, "Helvetica Neue", Arial, sans-serif;
+    margin-top: 1.95vh;
+}
+
+.vteacher__sale-popup__info__list__item {
+    margin-left: 1.95vh;
+    margin-bottom: 1.3vh;
+    font-size: 2.3vh;
+}
+
+.vteacher__sale-popup__price__old,
+.vteacher__sale-popup__price__new {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.vteacher__sale-popup__price {
+    position: relative;
+    top: -3.91vh;
+}
+
+.vteacher__sale-popup__price__old__num {
+    font-size: 2.73vh;
+    font-weight: bold;
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    position: relative;
+}
+
+.vteacher__sale-popup__price__old__num:after {
+    content: '';
+    position: absolute;
+    width: 120%;
+    height: 0.26vh;
+    background-color: #e63c00;
+    left: -1.3vh;
+    top: 1.95vh;
+    -webkit-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.vteacher__sale-popup__price__new {
+    font-size: 4.69vh;
+    font-weight: bold;
+    margin-left: 3.26vh;
+}
+
+.vteacher__sale-popup__buttons {
+    position: relative;
+    top: -1.3vh;
+}
+
+.vteacher__sale-popup__buttons__btn {
+    font-family: SegoeUIBold, Verdana, Helvetica, "Helvetica Neue", Arial, sans-serif;
+    border-radius: 0.39vh;
+    height: 6.77vh;
+    width: 31.64vh;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1.95vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 1.767;
+    padding: 1.56vh 0;
+    cursor: pointer;
+    position: relative;
+    text-shadow: 0vh 0.13vh 0.13vh #767676;
+}
+
+.vteacher__sale-popup__buttons__btn:hover:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .07);
+}
+
+.vteacher__sale-popup__buttons__btn:active {
+    box-shadow: inset 0 0.26vh 0.52vh rgba(0, 0, 0, .27);
+}
+
+.vteacher__sale-popup__buttons__buy-btn {
+    background-color: #83be43;
+    box-shadow: inset 0vh -0.39vh 0vh 0vh #4f8936;
+    margin-bottom: 3vh;
+    color:white!important;
+}
+
+.vteacher__sale-popup__buttons__continue-btn {
+    background-color: #1ca6de;
+    box-shadow: inset 0vh -0.39vh 0vh 0vh #0071b3;
+}

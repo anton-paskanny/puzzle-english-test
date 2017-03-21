@@ -1,0 +1,23 @@
+.puzzle-quote {
+  padding-left: 17px;
+  border-left-style: solid;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.puzzle-quote_size_m {
+  border-left-width: 4px;
+}
+
+.puzzle-quote_style_white-blue {
+  border-color: #d5e4f2;
+}
+
+.puzzle-quote__highlight_style_yellow {
+  background-color: #ffe153;
+}
+
+.puzzle-quote_style_beige {
+    border-color: #c5c7bc;
+}

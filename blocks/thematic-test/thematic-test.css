@@ -1,0 +1,87 @@
+.thematic-test {
+    min-height: 100vh;
+    padding-bottom: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.thematic-test_style_travel {
+    padding-top: 65px;
+}
+
+.thematic-test_style_cover {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #005da2;
+    color: #fff;
+    padding-top: 40px;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.thematic-test_style_cover .test-progress__item {
+    border-color: #0460a0;
+}
+
+.thematic-test__puzzle-logo {
+    width: 130px;
+    height: 73px;
+}
+
+.thematic-test__puzzle-logo .puzzle-english__svg__text {
+    fill: #fff;
+}
+
+.thematic-test .level-test__content__box {
+    color: #333;
+}
+
+.thematic-test .level-test__content__box__video {
+    margin-bottom: 0;
+}
+
+.thematic-test .level-test__content {
+    background: none;
+}
+
+.thematic-test .level-test__content__box__sound__record {
+    width: 325px;
+}
+
+.test-list a.round-box {
+    display: block;
+}
+
+/*Extra small devices (phones)*/
+
+@media only screen and (max-width : 767px) {
+
+    .thematic-test__screen-main {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .thematic-test_style_travel {
+        background-position: 65% 0;
+    }
+
+    .thematic-test_style_travel {
+        padding-top: 20px;
+    }
+
+    .thematic-test_style_cover {
+        padding-top: 10px;
+    }
+
+    .container-fluid.thematic-test__screen-video-test {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .thematic-test .level-test__content__box__video {
+        background: #fff;
+        margin-bottom: 20px;
+    }
+
+}

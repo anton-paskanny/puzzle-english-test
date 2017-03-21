@@ -1,0 +1,83 @@
+.puzzle-link {
+    text-decoration: underline;
+    color: #19abeb !important;
+    cursor: pointer;
+}
+
+.puzzle-link_style_dashed {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+.puzzle-link_style_none {
+    text-decoration: none;
+    border: none;
+}
+
+.puzzle-link:link {
+    color: #19abeb !important;
+}
+
+.puzzle-link_white {
+    color: #fff !important;
+}
+
+.puzzle-link_white:link {
+    color: #fff !important;
+}
+
+.puzzle-link_gray {
+    color: #9da7ac !important;
+}
+
+.puzzle-link_gray:link {
+    color: #9da7ac !important;
+}
+
+.puzzle-link_style_white {
+    color: #fff !important;
+}
+
+.puzzle-link_style_white:link {
+    color: #fff !important;
+}
+
+.puzzle-link_style_gray {
+    color: #9da7ac !important;
+}
+
+.puzzle-link_style_gray:link {
+    color: #9da7ac !important;
+}
+
+.puzzle-link_style_black {
+    color: #333 !important;
+}
+
+.puzzle-link_style_black:link {
+    color: #333 !important;
+}
+
+.puzzle-link_style_dark-gray {
+    color: #686868 !important;
+}
+
+.puzzle-link_style_dark-gray:link {
+    color: #686868 !important;
+}
+
+.puzzle-link_style_red {
+    color: #d8484b !important;
+}
+
+.puzzle-link_style_red:link {
+    color: #d8484b !important;
+}
+
+.puzzle-link_style_green {
+    color: #71b26f !important;
+}
+
+.puzzle-link_style_green:link {
+    color: #71b26f !important;
+}

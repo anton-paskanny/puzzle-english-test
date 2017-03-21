@@ -1,0 +1,26 @@
+.circle-num {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-color: #3397B1;
+    text-align: center;
+    color: #fff;
+    padding: 3px;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-style: normal;
+}
+
+.circle-num_blue {
+    background-color: #5ab9e4;
+}
+
+.circle-num_green {
+    background-color: #7cb27b;
+}

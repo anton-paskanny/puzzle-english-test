@@ -1,0 +1,121 @@
+.white-round-box {
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.white-round-box__narrow {
+    padding: 17px 10px !important;
+}
+
+.white-round-box_style_shadow {
+    box-shadow: 0 1px 0 0 #d9ddd0;
+}
+
+.white-round-box_ov_hidden {
+    overflow: hidden;
+}
+
+.white-round-box_bdc_e7e7e7-gray {
+    border: 1px solid #e7e7e7;
+}
+
+.white-round-box_p_50-90 {
+    padding: 50px 90px;
+}
+
+.white-round-box__line {
+    padding: 17px;
+    position: relative;
+}
+
+.white-round-box__scroll {
+    max-height: 270px;
+    overflow-y: scroll;
+}
+
+.white-round-box_teacher-second-options-train .white-round-box__line {
+    padding: 20px 80px;
+}
+
+.teacher-second__comments .white-round-box {
+    border-radius: 0;
+}
+
+.white-round-box__line_options-train {
+    cursor: pointer;
+}
+
+.white-round-box__line_options-train:hover {
+    background-color: #f8f8f8;
+}
+
+.white-round-box__line_options-train:last-child {
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.white-round-box_bdc_e7e7e7-gray .white-round-box__line {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.white-round-box__line:last-child {
+    border-bottom: none;
+}
+
+.white-round-box_teacher-second-input-train .puzzle-text_fz_18.puzzle-text_ff_segoe-bold span {
+    margin-right: 15px;
+}
+
+.white-round-box_teacher-second-input-train .puzzle-text_fz_18.puzzle-text_ff_segoe-bold span:last-child {
+    margin-right: 0;
+}
+
+.m-yellow_light .white-round-box  {
+    background-color: rgba(255, 255, 255, .6);
+}
+
+.white-round-box__exam-result {
+    width: 1000px;
+    padding: 40px;
+    height: 420px;
+}
+
+/*Extra small devices (phones)*/
+
+@media only screen and (max-width : 767px) {
+
+    .white-round-box__exam-result {
+        max-width: 100%;
+        text-align: center;
+        padding: 40px 80px;
+    }
+
+    .vteacher__exam__main__title__text {
+        margin-bottom: 20px;
+    }
+
+    .teacher-second-exercise__content__must-man img {
+        width: 120px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

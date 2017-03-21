@@ -1,0 +1,193 @@
+.top-bar {
+    position: relative;
+    z-index: 202;
+    padding-top: 8px;
+    background-image: linear-gradient(to left, #1e4a7e, #2a9de4), linear-gradient(#1e4a7e, #1e4a7e);
+}
+
+.top-bar_not-login {
+    padding: 13px 0 16px;
+    background: #fff;
+    border-color: #f6f6f6;
+}
+
+.top-bar__bottom-line {
+    border-bottom: 5px solid #fff;
+}
+
+.top-bar__right {
+    text-align: right;
+}
+
+.top-bar .puzzle-button_size_xl {
+    padding: 14px 25px 15px;
+}
+
+.top-bar .vteacher__header__profile {
+    width: 250px;
+    margin-left: 0;
+}
+
+.top-bar_kids .vteacher__header__profile {
+    width: 290px;
+}
+
+.top-bar .vteacher__header-px {
+    position: relative;
+}
+
+.top-bar .vteacher__header__profile__menu {
+    right: 0 !important;
+    left: auto;
+    top: 55px !important;
+}
+
+.top-bar_kids .vteacher__header__profile__menu {
+    right: 0 !important;
+    left: auto;
+    top: 63px !important;
+}
+
+/* Small devices (tablets, 992px to 1024) */
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+
+    .puzzle-tabs_size_l .puzzle-tabs__item {
+        width: 220px;
+    }
+
+    .puzzle-tabs__item > i.puzzle-icon {
+        width: 165px;
+    }
+
+    .puzzle-header__menu__user__group span {
+        width: 100px;
+    }
+
+}
+
+/* Small devices (tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .top-bar .puzzle-header__menu__user {
+        margin-bottom: 0;
+        margin-top: 5px;
+    }
+
+    .top-bar .container-fluid {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+
+    .top-bar .puzzle-header__menu__user {
+        padding-right: 0;
+    }
+
+    .top-bar .puzzle-header__menu__user .puzzle-header__submenu {
+        top: 55px;
+    }
+
+}
+
+/*Extra small devices (phones)*/
+
+@media only screen and (max-width : 767px) {
+
+    .puzzle-header__price-btn-kids {
+        display: none;
+    }
+
+    .top-bar_kids .puzzle-header__menu__login__btn.puzzle-button.puzzle-button_blue.puzzle-button_size_xl {
+        font-size: 14px;
+        padding: 10px 14px;
+        border-radius: 8px;
+    }
+
+    .top-bar_kids .vteacher__header__profile {
+        width: auto;
+    }
+
+    .top-bar .container-fluid {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .top-bar_not-login .top-bar__left {
+        -webkit-flex-basis: 66.667%;
+        -ms-flex-preferred-size: 66.667%;
+        flex-basis: 66.667%;
+        max-width: 66.667%;
+    }
+
+    .top-bar_not-login .top-bar__right {
+        -webkit-flex-basis: 33.333%;
+        -ms-flex-preferred-size: 33.333%;
+        flex-basis: 33.333%;
+        max-width: 33.333%;
+    }
+
+    .top-bar_not-login .puzzle-header__menu__login__btn {
+        min-width: 90px !important;
+    }
+
+    .top-bar .puzzle-header__menu__user {
+        margin-bottom: 0;
+        margin-top: 5px;
+    }
+
+    .puzzle-footer__bottom .top-bar__left {
+        padding: 0;
+    }
+
+}
+
+
+
+@media only screen and (max-width : 375px) {
+
+    .puzzle-header__popup-product-name, .puzzle-header__popup-product-sale {
+        font-size: 14px;
+    }
+
+    .puzzle-header__popup-menu-title {
+        font-size: 12px;
+    }
+
+    .puzzle-header__popup-footer {
+        padding: 15px;
+    }
+
+    .puzzle-header__popup-content {
+        text-align: center;
+    }
+
+    .puzzle-header__popup-userrole {
+        text-align: left;
+    }
+
+    .puzzle-header__menu {
+        margin-right: 0;
+    }
+
+    .top-bar .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .top-bar .container-fluid .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .puzzle-header_menu-thin .puzzle-header__menu-price-btn {
+        font-size: 16px;
+        margin-left: 0;
+        padding: 8px 14px 11px 13px;
+    }
+
+    .puzzle-header__popup {
+        width: 300px;
+    }
+
+}
